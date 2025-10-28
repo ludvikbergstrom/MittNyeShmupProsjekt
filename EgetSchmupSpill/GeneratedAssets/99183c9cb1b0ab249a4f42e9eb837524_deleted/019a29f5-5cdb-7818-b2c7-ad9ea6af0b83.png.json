@@ -1,0 +1,20 @@
+{
+    "asset": "99183c9cb1b0ab249a4f42e9eb837524",
+    "fileName": "019a29f5-5cdb-7818-b2c7-ad9ea6af0b83.png",
+    "prompt": "Small pixel art spaceship",
+    "negativePrompt": "",
+    "model": "5b5b2af1-6ea4-4266-b087-cc9f3bf4f450",
+    "modelName": "Flux.1 Dev",
+    "customSeed": -1,
+    "w3CTraceId": "54ab0ba116df973f2de28c79053b7f6f",
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0
+}
