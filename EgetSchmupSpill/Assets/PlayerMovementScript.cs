@@ -25,5 +25,14 @@ public class PlayerMovementScript : MonoBehaviour
     void FixedUpdate()
     {
         rb.linearVelocity = moveValue * playerSpeed;
+
+        if (rb.position.x >= 3.3f && moveValue.x > 0)
+        {
+            rb.linearVelocity = new Vector2(0, 0);
+        }
+        if (rb.position.x <= -3.3f && moveValue.x < 0)
+        {
+            rb.linearVelocity = new Vector2(0, 0);
+        }
     }
 }
