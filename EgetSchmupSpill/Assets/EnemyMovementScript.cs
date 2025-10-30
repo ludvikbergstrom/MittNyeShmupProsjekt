@@ -3,15 +3,13 @@ using UnityEngine;
 public class EnemyMovementScript : MonoBehaviour
 {
 
-    Rigidbody2D rb;
-    Vector2 moveValue;
-    public float enemySpeed = 2.0f;
-    public static bool goLeft = false;
+    public float enemyStepLenght = 0.02f;
+    public static bool goLeft = true;
+
 
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
-        MoveRight();
+
     }
 
 
@@ -26,26 +24,21 @@ public class EnemyMovementScript : MonoBehaviour
             goLeft = true;
         }
 
-        if (goLeft)
-        {
-            MoveLeft();
-        }
-        else 
-        {
-            MoveRight();
-        }
 
-
-        rb.linearVelocity = moveValue * enemySpeed;
+        
     }
 
-    void MoveLeft()
+    Vector2 newPosition;
+    public void MoveLeft()
     {
-        moveValue = Vector2.left;
+        newPosition = new Vector2 (transform.position.x - enemyStepLenght,transform.position.y); 
+        transform.position = newPosition;
     }
 
-    void MoveRight()
+    public void MoveRight()
     {
-        moveValue = Vector2.right;
+        newPosition = new Vector2(transform.position.x + enemyStepLenght, transform.position.y);
+        transform.position = newPosition;
     }
+
 }
