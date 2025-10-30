@@ -34,7 +34,7 @@ public class EnemyHandlingScript : MonoBehaviour
             {
                 GameObject newClone = Instantiate(enemyPrefab, new Vector2(spawnX, spawnY), transform.rotation);
                 enemyClones.Add(newClone);
-                spawnX -= widthChange;
+                spawnX += widthChange;
 
                 yield return new WaitForSeconds(spawnRate);
             }
@@ -57,16 +57,21 @@ public class EnemyHandlingScript : MonoBehaviour
 
     IEnumerator MoveEnemies()
     {
-        foreach (GameObject enemy in enemyClones)
-        {
-            EnemyMovementScript movement = enemy.GetComponent<EnemyMovementScript>();
-
-            if (EnemyMovementScript.goLeft)
+        if (EnemyMovementScript.goLeft)
+            foreach (GameObject enemy in enemyClones)
+            {
+                EnemyMovementScript movement = enemy.GetComponent<EnemyMovementScript>();
                 movement.MoveLeft();
-            else
+                yield return new WaitForSeconds(moveSpeed);
+            }
+        else
+        {
+            foreach (GameObject enemy in enemyClones)
+            {
+                EnemyMovementScript movement = enemy.GetComponent<EnemyMovementScript>();
                 movement.MoveRight();
-
-            yield return new WaitForSeconds(moveSpeed);
+                yield return new WaitForSeconds(moveSpeed);
+            }
         }
     }
 }

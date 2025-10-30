@@ -4,7 +4,7 @@ public class EnemyMovementScript : MonoBehaviour
 {
 
     public float enemyStepLenght = 0.02f;
-    public static bool goLeft = true;
+    public static bool goLeft = false;
 
 
     void Start()
