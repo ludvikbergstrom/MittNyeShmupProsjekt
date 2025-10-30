@@ -151,7 +151,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 197b67ca0079d6d49b12351f05b7a05d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  enemyStepLenght: 0.1
+  enemyStepLenght: 0.3
+  enemyDropLenght: 0.1
 --- !u!50 &5459496790459629785
 Rigidbody2D:
   serializedVersion: 5

@@ -541,8 +541,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd6be8d3afc0e8049a9d662f9498e72d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  spawnRate: 0.1
-  moveSpeed: 0.01
+  spawnRate: 0.01
+  moveSpeed: 0.03
   enemyPrefab: {fileID: 2380084936591100427, guid: e34d4a0efbf9dbf4589e55a418d89a06, type: 3}
 --- !u!4 &1164202265
 Transform:
@@ -553,7 +553,7 @@ Transform:
   m_GameObject: {fileID: 1164202263}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.2, y: 0.5, z: 0}
+  m_LocalPosition: {x: -3.2, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
