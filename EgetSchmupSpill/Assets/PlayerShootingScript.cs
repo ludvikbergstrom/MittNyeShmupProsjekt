@@ -31,6 +31,6 @@ public class PlayerShootingScript : MonoBehaviour
 
         Instantiate(projectilePrefab, transform.position, transform.rotation);
 
-        nextFire = Time.time + fireRate;
+        nextFire = Time.time + 1/fireRate;
     }
 }

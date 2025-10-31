@@ -18,4 +18,9 @@ public class ProjectileScript : MonoBehaviour
         moveValue = Vector2.up;
         rb.linearVelocity = moveValue * projSpeed;
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Destroy(gameObject);
+    }
 }

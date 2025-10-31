@@ -21,7 +21,7 @@ public class EnemyHandlingScript : MonoBehaviour
     public float movePause = 0.1f;
 
     private List<GameObject> enemyClones = new List<GameObject>();
-    private bool goLeft = true;
+    private bool goLeft = false;
 
     void Start()
     {
@@ -41,13 +41,14 @@ public class EnemyHandlingScript : MonoBehaviour
             for (int j = 0; j < columns; j++)
             {
                 GameObject clone = Instantiate(enemyPrefab, new Vector2(spawnX, spawnY), Quaternion.identity);
+                if (i != 0) {clone.GetComponent<EnemyShootingScript>().enabled = false;}
                 enemyClones.Add(clone);
 
                 spawnX += widthChange;
                 yield return new WaitForSeconds(spawnRate);
             }
         }
-
+        
         // Start the movement coroutine after spawning finishes
         StartCoroutine(MoveEnemiesSpaceInvaders());
     }
@@ -56,7 +57,7 @@ public class EnemyHandlingScript : MonoBehaviour
     {
         while (enemyClones.Count > 0)
         {
-            // 1️⃣ Check if any enemy hits an edge
+            // 1️ Check if any enemy hits an edge
             bool edgeHit = false;
             foreach (GameObject enemy in enemyClones)
             {
@@ -74,7 +75,7 @@ public class EnemyHandlingScript : MonoBehaviour
                 }
             }
 
-            // 2️⃣ Move all enemies
+            // 2️ Move all enemies
             if (edgeHit)
             {
                 foreach (GameObject enemy in enemyClones)
@@ -96,8 +97,51 @@ public class EnemyHandlingScript : MonoBehaviour
                 }
             }
 
-            // 3️⃣ Wait before next movement step
+            // 3️ Wait before next movement step
             yield return new WaitForSeconds(moveSpeed);
         }
     }
+
+    public void UpdateBottomShooters()
+    {
+        Debug.Log("oppdater hvem som skyter");
+    }
+
+
+        /*
+        public void UpdateBottomShooters()
+        {
+
+            // Now, find the bottom-most enemy in each column
+            Dictionary<float, GameObject> bottomEnemies = new Dictionary<float, GameObject>();      //vi lager et biblotekt for de laveste fiendene. nøkkelen er x-pos og verdien er fienden
+
+            foreach (GameObject enemy in enemyClones)
+            {
+                if (enemy == null) continue;
+
+                float xPos = Mathf.Round(enemy.transform.position.x * 10f) / 10f; // round x to avoid float imprecision
+                if (!bottomEnemies.ContainsKey(xPos))
+                {
+                    bottomEnemies[xPos] = enemy;
+                }
+                else
+                {
+                    // If this one is lower (smaller y), replace it
+                    if (enemy.transform.position.y < bottomEnemies[xPos].transform.position.y)
+                    {
+                        bottomEnemies[xPos] = enemy;
+                    }
+                }
+            }
+
+            // Enable shooting only for bottom enemies
+            foreach (GameObject bottomEnemy in bottomEnemies.Values)
+            {
+                if (bottomEnemy == null) continue;
+                bottomEnemy.GetComponent<EnemyShootingScript>().enabled = true;
+            }
+        */
+
+    }
+
 }
