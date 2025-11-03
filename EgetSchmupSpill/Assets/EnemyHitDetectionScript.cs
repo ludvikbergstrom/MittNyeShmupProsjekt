@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class EnemyHitDetectionScript : MonoBehaviour
@@ -13,7 +14,9 @@ public class EnemyHitDetectionScript : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         Destroy(gameObject);
-        enemyHandler.UpdateBottomShooters();
+        enemyHandler.StartCoroutine(enemyHandler.DelayedUpdateBottomShooters());
+
+
     }
 
 }

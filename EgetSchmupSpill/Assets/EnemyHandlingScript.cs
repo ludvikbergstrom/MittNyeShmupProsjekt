@@ -20,7 +20,7 @@ public class EnemyHandlingScript : MonoBehaviour
     public float rightEdge = 3.3f;
     public float movePause = 0.1f;
 
-    private List<GameObject> enemyClones = new List<GameObject>();
+    public List<GameObject> enemyClones = new List<GameObject>();
     private bool goLeft = false;
 
     void Start()
@@ -41,14 +41,16 @@ public class EnemyHandlingScript : MonoBehaviour
             for (int j = 0; j < columns; j++)
             {
                 GameObject clone = Instantiate(enemyPrefab, new Vector2(spawnX, spawnY), Quaternion.identity);
-                if (i != 0) {clone.GetComponent<EnemyShootingScript>().enabled = false;}
+                if (i != 0) { clone.GetComponent<EnemyShootingScript>().enabled = false; }
+                EnemyInfoScript info = clone.GetComponent<EnemyInfoScript>();
+                info.columnIndex = j;
                 enemyClones.Add(clone);
 
                 spawnX += widthChange;
                 yield return new WaitForSeconds(spawnRate);
             }
         }
-        
+
         // Start the movement coroutine after spawning finishes
         StartCoroutine(MoveEnemiesSpaceInvaders());
     }
@@ -81,6 +83,7 @@ public class EnemyHandlingScript : MonoBehaviour
                 foreach (GameObject enemy in enemyClones)
                 {
                     if (enemy == null) continue;
+
                     enemy.transform.position += new Vector3(0, -stepY, 0); // move down
                     yield return new WaitForSeconds(movePause);
                 }
@@ -92,6 +95,7 @@ public class EnemyHandlingScript : MonoBehaviour
                 foreach (GameObject enemy in enemyClones)
                 {
                     if (enemy == null) continue;
+
                     enemy.transform.position += moveStep; // move sideways
                     yield return new WaitForSeconds(movePause);
                 }
@@ -101,47 +105,43 @@ public class EnemyHandlingScript : MonoBehaviour
             yield return new WaitForSeconds(moveSpeed);
         }
     }
+    public IEnumerator DelayedUpdateBottomShooters()
+    {
+        yield return null; // wait one frame so destroyed enemy is finalized
+        UpdateBottomShooters();
+    }
 
     public void UpdateBottomShooters()
     {
-        Debug.Log("oppdater hvem som skyter");
-    }
-
-
-        /*
-        public void UpdateBottomShooters()
+        Dictionary<int, GameObject> bottomEnemies = new Dictionary<int, GameObject>();
+        // Now, find the bottom-most enemy in each column
+        foreach (GameObject enemy in enemyClones)
         {
-
-            // Now, find the bottom-most enemy in each column
-            Dictionary<float, GameObject> bottomEnemies = new Dictionary<float, GameObject>();      //vi lager et biblotekt for de laveste fiendene. nøkkelen er x-pos og verdien er fienden
-
-            foreach (GameObject enemy in enemyClones)
+            if (enemy == null)
             {
-                if (enemy == null) continue;
-
-                float xPos = Mathf.Round(enemy.transform.position.x * 10f) / 10f; // round x to avoid float imprecision
-                if (!bottomEnemies.ContainsKey(xPos))
-                {
-                    bottomEnemies[xPos] = enemy;
-                }
-                else
-                {
-                    // If this one is lower (smaller y), replace it
-                    if (enemy.transform.position.y < bottomEnemies[xPos].transform.position.y)
-                    {
-                        bottomEnemies[xPos] = enemy;
-                    }
-                }
+                Debug.Log("død");
+                continue;
             }
 
-            // Enable shooting only for bottom enemies
-            foreach (GameObject bottomEnemy in bottomEnemies.Values)
-            {
-                if (bottomEnemy == null) continue;
-                bottomEnemy.GetComponent<EnemyShootingScript>().enabled = true;
-            }
-        */
 
+            EnemyInfoScript info = enemy.GetComponent<EnemyInfoScript>();
+            int col = info.columnIndex;
+
+            if (!bottomEnemies.ContainsKey(col) ||
+                enemy.transform.position.y < bottomEnemies[col].transform.position.y)
+            {
+                bottomEnemies[col] = enemy;
+            }
+            
+        }
+        
+        // Enable shooting only for bottom enemies
+        foreach (GameObject bottomEnemy in bottomEnemies.Values)
+        {
+            if (bottomEnemy == null) continue;
+            bottomEnemy.GetComponent<EnemyShootingScript>().enabled = true;
+        }
     }
 
 }
+
