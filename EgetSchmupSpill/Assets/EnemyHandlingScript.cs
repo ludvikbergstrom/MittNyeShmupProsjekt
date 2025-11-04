@@ -168,15 +168,16 @@ public class EnemyHandlingScript : MonoBehaviour
     {
         while (true)
         {
+            List<int> keys = columnsLeft.Keys.ToList();
+            // Pick a random index
+            int randomIndex = Random.Range(0, keys.Count);
+            int randomColumn = keys[randomIndex];
 
             foreach (GameObject enemy in enemyClones)
             {
                 if (enemy == null) continue;
 
-                List<int> keys = columnsLeft.Keys.ToList();
-                // Pick a random index
-                int randomIndex = Random.Range(0, keys.Count);
-                int randomColumn = keys[randomIndex];
+
 
 
                 if (enemy.GetComponent<EnemyShootingScript>().enabled == true && enemy.GetComponent<EnemyInfoScript>().columnIndex == randomColumn)
