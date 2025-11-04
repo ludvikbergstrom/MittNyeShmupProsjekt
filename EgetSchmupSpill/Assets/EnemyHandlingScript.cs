@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using UnityEngine;
+using System.Linq;
+using static UnityEditor.Experimental.AssetDatabaseExperimental.AssetDatabaseCounters;
 
 public class EnemyHandlingScript : MonoBehaviour
 {
@@ -57,6 +59,7 @@ public class EnemyHandlingScript : MonoBehaviour
 
         // Start the movement coroutine after spawning finishes
         StartCoroutine(MoveEnemiesSpaceInvaders());
+        UpdateBottomShooters();
         StartCoroutine(AssignShooter());
     }
 
@@ -116,9 +119,12 @@ public class EnemyHandlingScript : MonoBehaviour
         UpdateBottomShooters();
     }
 
+    Dictionary<int, int> columnsLeft = new Dictionary<int, int>();
     public void UpdateBottomShooters()
     {
         Dictionary<int, GameObject> bottomEnemies = new Dictionary<int, GameObject>();
+
+        columnsLeft = new Dictionary<int, int>();
         // Now, find the bottom-most enemy in each column
         foreach (GameObject enemy in enemyClones)
         {
@@ -126,9 +132,19 @@ public class EnemyHandlingScript : MonoBehaviour
             {
                 continue;
             }
-
-
             EnemyInfoScript info = enemy.GetComponent<EnemyInfoScript>();
+            
+            if (columnsLeft.ContainsKey(info.columnIndex)) 
+            {
+                columnsLeft[info.columnIndex]++;
+            }
+            else
+            {
+                columnsLeft[info.columnIndex] = 1;
+            }
+
+
+
             int col = info.columnIndex;
 
             if (!bottomEnemies.ContainsKey(col) ||
@@ -147,15 +163,21 @@ public class EnemyHandlingScript : MonoBehaviour
         }
     }
 
-    private int randomColumn;
+
     private IEnumerator AssignShooter()
     {
         while (true)
         {
-            randomColumn = Random.Range(0, 10);
+
             foreach (GameObject enemy in enemyClones)
             {
                 if (enemy == null) continue;
+
+                List<int> keys = columnsLeft.Keys.ToList();
+                // Pick a random index
+                int randomIndex = Random.Range(0, keys.Count);
+                int randomColumn = keys[randomIndex];
+
 
                 if (enemy.GetComponent<EnemyShootingScript>().enabled == true && enemy.GetComponent<EnemyInfoScript>().columnIndex == randomColumn)
                 {
