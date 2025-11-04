@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class EnemyHandlingScript : MonoBehaviour
@@ -19,6 +20,9 @@ public class EnemyHandlingScript : MonoBehaviour
     public float leftEdge = -3.3f;
     public float rightEdge = 3.3f;
     public float movePause = 0.1f;
+
+    [Header("Shoot Settings")]
+    public float fireRate = 1.0f;
 
     public List<GameObject> enemyClones = new List<GameObject>();
     private bool goLeft = false;
@@ -53,6 +57,7 @@ public class EnemyHandlingScript : MonoBehaviour
 
         // Start the movement coroutine after spawning finishes
         StartCoroutine(MoveEnemiesSpaceInvaders());
+        StartCoroutine(AssignShooter());
     }
 
     IEnumerator MoveEnemiesSpaceInvaders()
@@ -119,7 +124,6 @@ public class EnemyHandlingScript : MonoBehaviour
         {
             if (enemy == null)
             {
-                Debug.Log("død");
                 continue;
             }
 
@@ -143,5 +147,24 @@ public class EnemyHandlingScript : MonoBehaviour
         }
     }
 
+    private int randomColumn;
+    private IEnumerator AssignShooter()
+    {
+        while (true)
+        {
+            randomColumn = Random.Range(0, 10);
+            foreach (GameObject enemy in enemyClones)
+            {
+                if (enemy == null) continue;
+
+                if (enemy.GetComponent<EnemyShootingScript>().enabled == true && enemy.GetComponent<EnemyInfoScript>().columnIndex == randomColumn)
+                {
+                    enemy.GetComponent<EnemyShootingScript>().Shoot();
+                }
+
+            }
+            yield return new WaitForSeconds(fireRate);
+        }
+    }
 }
 
