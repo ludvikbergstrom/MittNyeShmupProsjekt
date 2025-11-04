@@ -22,6 +22,7 @@ public class EnemyHandlingScript : MonoBehaviour
     public float leftEdge = -3.3f;
     public float rightEdge = 3.3f;
     public float movePause = 0.1f;
+    public float lowestY = -3.0f;
 
     [Header("Shoot Settings")]
     public float fireRate = 1.0f;
@@ -85,10 +86,16 @@ public class EnemyHandlingScript : MonoBehaviour
         while (enemyClones.Count > 0)
         {
             // 1️ Check if any enemy hits an edge
+            float currentLowestY = 6.0f;
             bool edgeHit = false;
             foreach (GameObject enemy in enemyClones)
             {
                 if (enemy == null) continue;
+
+                if (enemy.transform.position.y < currentLowestY)
+                {
+                    currentLowestY = enemy.transform.position.y;
+                }
 
                 if (goLeft && enemy.transform.position.x <= leftEdge)
                 {
@@ -105,13 +112,16 @@ public class EnemyHandlingScript : MonoBehaviour
             // 2️ Move all enemies
             if (edgeHit)
             {
-                foreach (GameObject enemy in enemyClones)
+                if (currentLowestY >= lowestY)
                 {
-                    if (enemy == null) continue;
+                    foreach (GameObject enemy in enemyClones)
+                    {
+                        if (enemy == null) continue;
 
-                    enemy.transform.position += new Vector3(0, -stepY, 0); // move down
-                    yield return new WaitWhile(() => !PlayerHealthManagerScript.instance.playerAlive);
-                    yield return new WaitForSeconds(movePause);
+                        enemy.transform.position += new Vector3(0, -stepY, 0); // move down
+                        yield return new WaitWhile(() => !PlayerHealthManagerScript.instance.playerAlive);
+                        yield return new WaitForSeconds(movePause);
+                    }
                 }
                 goLeft = !goLeft; // reverse direction
             }
