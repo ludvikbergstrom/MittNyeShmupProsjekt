@@ -285,6 +285,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   playerPrefab: {fileID: 3955314240249636770, guid: 8279cb9976e1b814d87c38b6af2c122e, type: 3}
+  respawnTime: 2
 --- !u!4 &238322733
 Transform:
   m_ObjectHideFlags: 0
@@ -675,7 +676,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd6be8d3afc0e8049a9d662f9498e72d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  enemyPrefab: {fileID: 2380084936591100427, guid: e34d4a0efbf9dbf4589e55a418d89a06, type: 3}
+  enemyPrefabOne: {fileID: 2380084936591100427, guid: e34d4a0efbf9dbf4589e55a418d89a06, type: 3}
+  enemyPrefabTwo: {fileID: 2380084936591100427, guid: b900e4522e4ef8042b219b8524db9460, type: 3}
+  enemyPrefabThree: {fileID: 2380084936591100427, guid: e34d4a0efbf9dbf4589e55a418d89a06, type: 3}
   rows: 5
   columns: 11
   spawnRate: 0.01
@@ -687,6 +690,7 @@ MonoBehaviour:
   leftEdge: -3.3
   rightEdge: 3.3
   movePause: 0.03
+  lowestY: -3
   fireRate: 1
   enemyClones: []
 --- !u!4 &1164202265
@@ -983,6 +987,6 @@ SceneRoots:
   - {fileID: 619394802}
   - {fileID: 1164202265}
   - {fileID: 575948983}
+  - {fileID: 238322733}
   - {fileID: 1256655745}
   - {fileID: 902123945}
-  - {fileID: 238322733}

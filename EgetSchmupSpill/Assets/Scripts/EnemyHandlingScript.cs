@@ -7,8 +7,12 @@ using static UnityEditor.Experimental.AssetDatabaseExperimental.AssetDatabaseCou
 
 public class EnemyHandlingScript : MonoBehaviour
 {
+    [Header("Enemy prefabs")]
+    public GameObject enemyPrefabOne;
+    public GameObject enemyPrefabTwo;
+    public GameObject enemyPrefabThree;
+
     [Header("Spawn Settings")]
-    public GameObject enemyPrefab;
     public int rows = 5;
     public int columns = 11;
     public float spawnRate = 0.1f;
@@ -30,29 +34,59 @@ public class EnemyHandlingScript : MonoBehaviour
     public List<GameObject> enemyClones = new List<GameObject>();
     private bool goLeft = false;
 
+    private int round = 1;
+    private bool startSpawn = false;
+    private int enemiesLeft;
+
     void Start()
     { 
-        StartCoroutine(SpawnEnemies());
+        StartCoroutine(SpawnEnemies(enemyPrefabOne));
     }
 
     void Update()
     {
-        if (!PlayerHealthManagerScript.instance.playerAlive)
+        enemiesLeft = rows * columns;
+
+
+        foreach (GameObject enemy in enemyClones)
         {
-            foreach (GameObject enemy in enemyClones)
+            if (enemy == null)
+            {
+                enemiesLeft--;
+                continue;
+            }
+
+            if (!PlayerHealthManagerScript.instance.playerAlive)
             {
                 enemy.GetComponent<EnemyAnimationScript>().PauseAnimation();
             }
-        }
-        if (PlayerHealthManagerScript.instance.playerAlive)
-        {
-            foreach (GameObject enemy in enemyClones)
+            if (PlayerHealthManagerScript.instance.playerAlive)
             {
                 enemy.GetComponent<EnemyAnimationScript>().ResumeAnimation();
             }
         }
+
+        
+        if (enemiesLeft <= 0)
+        {
+            round++;
+            startSpawn = true;
+        }
+
+        if (round == 2 && startSpawn)
+        {
+            rows = 1;
+            columns = 3;
+            widthChange = 1.5f;
+            heightChange = 1.0f;
+            StartCoroutine(SpawnEnemies(enemyPrefabTwo));
+            startSpawn = false;
+        }
+        
+
+
     }
-    IEnumerator SpawnEnemies()
+    IEnumerator SpawnEnemies(GameObject enemyPrefab)
     {
         float startX = transform.position.x;
         float startY = transform.position.y;
@@ -74,7 +108,7 @@ public class EnemyHandlingScript : MonoBehaviour
                 yield return new WaitForSeconds(spawnRate);
             }
         }
-
+        
         // Start the movement coroutine after spawning finishes
         StartCoroutine(MoveEnemiesSpaceInvaders());
         UpdateBottomShooters();

@@ -4,6 +4,7 @@ using UnityEngine;
 public class PlayerSpawnerScript : MonoBehaviour
 {
     public GameObject playerPrefab;
+    public float respawnTime = 2.0f;
     private bool spawnScheduled = false;
 
     void Start()
@@ -18,7 +19,7 @@ public class PlayerSpawnerScript : MonoBehaviour
             !spawnScheduled) //  Only run once per death
         {
             spawnScheduled = true;  // prevent multiple Invokes
-            Invoke("SpawnPlayer", 1.0f);
+            Invoke("SpawnPlayer", respawnTime);
         }
     }
 

@@ -1,0 +1,4262 @@
+fileFormatVersion: 2
+guid: 8cc184f8b51ee39478dff00f68fc555b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6542634202309103123
+    second: MattisDancSheet_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MattisDancSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12288
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31e84f3842b1cca50800000000000000
+      internalID: 6542634202309103123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_1
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 12288
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6dc80d18953076409a0c5f4704e426f
+      internalID: 2071556206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_2
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 12288
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde69ef84d3507640abbc3a4509b4eb1
+      internalID: -972210502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_3
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 12288
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7053d44bd4820094fada27a866d1cfd1
+      internalID: 644253851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_4
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 12288
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c0e3e4ad29b45f4fa0fa0a1a1aa007e
+      internalID: 785597906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_5
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 12288
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4624602aee112c3489a0348b9169fd2e
+      internalID: -700928965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_6
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 12288
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d681c0715b1c82b4bbe0aecfa91037f0
+      internalID: -2043396143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_7
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 12288
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a1127df01c8ee4bbe786a85dd82947
+      internalID: -2137422085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_8
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 12288
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4afe67c00774114dad0d1dbc416f3a7
+      internalID: -1112756281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_9
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 12288
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6c15ed8e50f9845ad1d665787707a6
+      internalID: -1485167705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_10
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 12288
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dbbdb53c80e4f949812329bb7a66daf
+      internalID: -972592960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_11
+      rect:
+        serializedVersion: 2
+        x: 6336
+        y: 12288
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26dd4411fc9f85e49b98c094725e52cc
+      internalID: -1962209841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_12
+      rect:
+        serializedVersion: 2
+        x: 6912
+        y: 12288
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9c4b43f4e376d4187edb6f2ede2f9d
+      internalID: -1243944262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_13
+      rect:
+        serializedVersion: 2
+        x: 7488
+        y: 12288
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3363f4d3f6a9a024c96e4f5ab76609bd
+      internalID: -127920689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11264
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a7ff656e64ed7948be86b9eb0751e2e
+      internalID: 1555020233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_15
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 11264
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c519052cd0cb24085655053420bf66
+      internalID: 2009900650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_16
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 11264
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b632fd12ac98ae54d8194d4d13009bf3
+      internalID: -256262963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_17
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 11264
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b1545cc736f0934fab0505f968cca51
+      internalID: 1006749813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_18
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 11264
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b547febd126c1ec4fac753e1243843ac
+      internalID: -711050185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_19
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 11264
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bbae5d5ed9ef23448c53f88f9fbbed9
+      internalID: 1597727499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_20
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 11264
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e07e053af3831ff4e83622f09daf8772
+      internalID: -622755098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_21
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 11264
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1331d06b60fdafc4298f1eae176cd48c
+      internalID: -1130226632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_22
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 11264
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 535eba5d5cf03af4aa632456e808502a
+      internalID: 457502712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_23
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 11264
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12888504cdce3ee48ac43c126e5769be
+      internalID: -1751316105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_24
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 11264
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1f487ae329aa4449dc3dcae387bf35
+      internalID: -1485325229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_25
+      rect:
+        serializedVersion: 2
+        x: 6336
+        y: 11264
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c43461855a10f14788dbaac3eda115e
+      internalID: 1768813316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_26
+      rect:
+        serializedVersion: 2
+        x: 6912
+        y: 11264
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c80cb4171df38a49a89469cbf7b9a07
+      internalID: 199873211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_27
+      rect:
+        serializedVersion: 2
+        x: 7488
+        y: 11264
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa98b996aae22e5468b0099afe7f5ba9
+      internalID: 1358302968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10240
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4e43aa280003d479adff5349aa1150
+      internalID: -892464013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_29
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 10240
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f74f199da198b429fee44df9221198
+      internalID: -1960557103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_30
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 10240
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19fef54f9bc58534c9371a2d910e4c09
+      internalID: 918432753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_31
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 10240
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af2170e5d79ea448ad44cd13a29065b
+      internalID: -1608178360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_32
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 10240
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d513909c04e6a6d4d81b7a19283e5e5a
+      internalID: -773884278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_33
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 10240
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37eaeffb8250ebc4880a4307baf471fc
+      internalID: -2008750060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_34
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 10240
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9554b0d392faa409f15eba58fe99f4
+      internalID: -513674520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_35
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 10240
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951fbf5f3f4683044b14b6823a6de569
+      internalID: -1761563423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_36
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 10240
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3a74241f8b7e84d9b9499cbad14702
+      internalID: 1336492443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_37
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 10240
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb2b8856e0e43a4c8b36359fb26ac56
+      internalID: -1359944377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_38
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 10240
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fda8fef21a4b454ab4420145e286c79
+      internalID: 1321553404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_39
+      rect:
+        serializedVersion: 2
+        x: 6336
+        y: 10240
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01074bb8d336e94088961aedefac72a
+      internalID: 1076309822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_40
+      rect:
+        serializedVersion: 2
+        x: 6912
+        y: 10240
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e17c9f50be75d88489777faf6cb92fbc
+      internalID: 1186415387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_41
+      rect:
+        serializedVersion: 2
+        x: 7488
+        y: 10240
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d1ad037387c3694f82ed4e1413581f4
+      internalID: 177043317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9216
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6b0a440563e7f4383bcdf80fb8aef9
+      internalID: 1095897403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_43
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 9216
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1879c452b8babab46945f7e0ba001529
+      internalID: 1559756755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_44
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 9216
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7586cbbf85005c41a168b435f7e8ded
+      internalID: -4760856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_45
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 9216
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81a1bb166d0ace40bf7e6b5a4c7e396
+      internalID: -1101373987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_46
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 9216
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3582600aa4d6e3e4496a535ce64e3858
+      internalID: -1682676601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_47
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 9216
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2575b315584b1ae4190e50e424d7f9a8
+      internalID: 19420424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_48
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 9216
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c95b34dd97abf47bcf61b48d3c7824
+      internalID: 677893488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_49
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 9216
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b77b5ffd45d104d4fb00db8107f97a06
+      internalID: 756608480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_50
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 9216
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed3c5b14fee14cc4c9856caebc17dfd4
+      internalID: 807940798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_51
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 9216
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de5adddc6e23e5b47af134aad69cd654
+      internalID: 154106073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_52
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 9216
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b74eb3c94ade08f42ad008ff217a86af
+      internalID: 812120523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_53
+      rect:
+        serializedVersion: 2
+        x: 6336
+        y: 9216
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75a16363178f64439ac2609f6a19130
+      internalID: 231081493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_54
+      rect:
+        serializedVersion: 2
+        x: 6912
+        y: 9216
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 849b4249c880ee04c949dd7d29b68091
+      internalID: -79523526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_55
+      rect:
+        serializedVersion: 2
+        x: 7488
+        y: 9216
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fdac9adbde4ac2489736413f2e4f98d
+      internalID: -579122595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8192
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d161df59284bb8a4cb6a8f13d7e57a26
+      internalID: -1107672870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_57
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 8192
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7954644c09a18c4a9b767e58beeda60
+      internalID: 1238152823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_58
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 8192
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7833f9286d606f74e9036abb19b01ded
+      internalID: 1722818266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_59
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 8192
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 352e729dc18361147967fea7117b020c
+      internalID: 295409993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_60
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 8192
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f03ac9c942011d4794860ca319d38d3
+      internalID: -1583526194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_61
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 8192
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16242d9c8093ff54e9cafebc56da2544
+      internalID: -1199695914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_62
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 8192
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6111a8be7d3238458d7a53f48788715
+      internalID: -1489130287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_63
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 8192
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1123ed6b9437ed2498742c3a340028f7
+      internalID: 933282794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_64
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 8192
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7feec21602e2a86439787e0161cef543
+      internalID: 63932186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_65
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 8192
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b9edd35f023639498da967e86f52c89
+      internalID: -1893066868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_66
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 8192
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34775736b461a304681d00a14fc5c1fc
+      internalID: 384008198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_67
+      rect:
+        serializedVersion: 2
+        x: 6336
+        y: 8192
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8161b318f2c5ebc4391979dd826120ef
+      internalID: 818235376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_68
+      rect:
+        serializedVersion: 2
+        x: 6912
+        y: 8192
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e31f9b51197784794c743aaf7f1747
+      internalID: -653243075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_69
+      rect:
+        serializedVersion: 2
+        x: 7488
+        y: 8192
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4928162ae3e27e418484ea33f21ccf9
+      internalID: -38985594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7168
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9572744e4964f3346bb6c3be3964f233
+      internalID: -869193860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_71
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 7168
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c673e5d24691da64184ec835e1013e84
+      internalID: 511696635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_72
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 7168
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10039c2cfc4be42428087e5f4fd2498b
+      internalID: -1673386996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_73
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 7168
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7878bf5411afd419be475a5952240e
+      internalID: -1979729037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_74
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 7168
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a021ec262441e41bed258c53d73781
+      internalID: -990326620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_75
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 7168
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af496cefbe18e54ba9c39f6c1cae99d
+      internalID: 1897808360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_76
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 7168
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92446ff374b87ad4ba6a739e949ac8bf
+      internalID: -1710642748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_77
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 7168
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ec518629677c4489ccbe6d31d17099
+      internalID: 397132786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_78
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 7168
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3836d982ba5aa4f90cab09220c1431
+      internalID: -810197839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_79
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 7168
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408d5f5d75c885544a806db8c7e94f75
+      internalID: 585939771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_80
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 7168
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f25b6329695da54d826c714810fc417
+      internalID: 939741288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_81
+      rect:
+        serializedVersion: 2
+        x: 6336
+        y: 7168
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f8a35f0d6dba145b736490a3601685
+      internalID: -1232101872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_82
+      rect:
+        serializedVersion: 2
+        x: 6912
+        y: 7168
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5570a2f58a2218c458ff6f8f064d8796
+      internalID: 1903631808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_83
+      rect:
+        serializedVersion: 2
+        x: 7488
+        y: 7168
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75311865842d0448a49baf3d7c40d4e
+      internalID: 2085737604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6144
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3613f50b6f97bfa4581a97da772d3f85
+      internalID: 262940207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_85
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 6144
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f66cdba9706ba4c92f5ef9bbf37808
+      internalID: 776779094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_86
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 6144
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0199e3cedd791ba4fbee30aa9870ffa8
+      internalID: 1563510551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_87
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 6144
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc64b96859aa39941a2b00bd36b8dfd8
+      internalID: -425161881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_88
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 6144
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4336333874194b84cb9d6dbc76f0093e
+      internalID: 275866520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_89
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 6144
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf82d83861490d4282abad1a4a18017
+      internalID: 359005854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_90
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 6144
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a77811d5f8dacf41b14b13b6985dea5
+      internalID: -305514101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_91
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 6144
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15504cf6f753574f8db7ce1288922bc
+      internalID: 1704182224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_92
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 6144
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ffdd05a50241348bb2e4a3fb825de1
+      internalID: 686963452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_93
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 6144
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c118aa96beb7a68419f6822c9b9a4c76
+      internalID: -62255621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_94
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 6144
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e0c100d5f22a6469d0e54bb21bf50e
+      internalID: 1950324365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_95
+      rect:
+        serializedVersion: 2
+        x: 6336
+        y: 6144
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a972d4c02214194ca5f4059967754f2
+      internalID: -106610812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_96
+      rect:
+        serializedVersion: 2
+        x: 6912
+        y: 6144
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 231e9c7d70708f646b83d124ff42a6d7
+      internalID: -146121748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_97
+      rect:
+        serializedVersion: 2
+        x: 7488
+        y: 6144
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e5e3c35aee82f4e9b1764d65faa6e5
+      internalID: 1653497357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5120
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0dc1de4eaf4ae47b6e2af817557164
+      internalID: -1539542982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_99
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 5120
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56050e27eeff9f41b89aeea40d66409
+      internalID: -1563302680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_100
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 5120
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaae334c745f65f428f0283e21c16e0e
+      internalID: 811872321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_101
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 5120
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc1ad0b96b773b4ca8fab52765b094a
+      internalID: -614857973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_102
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 5120
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681634a816d1126458a81f0113defd98
+      internalID: 46550943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_103
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 5120
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b33e0676e1faf7547ae4ecd9b2232483
+      internalID: -1723726743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_104
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 5120
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba048ac101ae7bc42877c6f6ec536b9a
+      internalID: 922069811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_105
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 5120
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f460e5f495d1eee4eae464c977cc4688
+      internalID: 2079482107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_106
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 5120
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add838fa10effba428f184514988849d
+      internalID: 3948645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_107
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 5120
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 001e4c579d4ccfd43b392e7e7c96d1ef
+      internalID: 253769849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_108
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 5120
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20afc7b59e939ba4883c09779713c757
+      internalID: -1286385878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_109
+      rect:
+        serializedVersion: 2
+        x: 6336
+        y: 5120
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e82218b619bfc043bc91afa796c627e
+      internalID: 282489080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_110
+      rect:
+        serializedVersion: 2
+        x: 6912
+        y: 5120
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d87fcdf001ee91a439e3310a7fc4d650
+      internalID: -2096340727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_111
+      rect:
+        serializedVersion: 2
+        x: 7488
+        y: 5120
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2faf2e9bd1bd67f4ba33fa8f389f6812
+      internalID: -188640317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4096
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d189cdfd956fa74d910a57fc71b7ad4
+      internalID: -745179343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_113
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 4096
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c26be0cc019aad49ac539767ce811d5
+      internalID: 1882378707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 4096
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f45da8a9704ad4c92fdee97c46a4cc
+      internalID: -1759867601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_115
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 4096
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6a8eddb781d1145aea4465548d415a
+      internalID: -1422829613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_116
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 4096
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f251c2e9373ffd042bbf44a20d5d49d3
+      internalID: 1071302058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_117
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 4096
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a816db1340aa64583e8a395fd56ee4
+      internalID: 1564926404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_118
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 4096
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc6ba53dd1ab29a4c8b48c4f773bc7dc
+      internalID: -1493618497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_119
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 4096
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe15dd50ae97c8044a29ef031195648d
+      internalID: -1246994228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_120
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 4096
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cad2296347b39b43aef86441bc36b27
+      internalID: 1244291321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_121
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 4096
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1daac5aef737b0f4c992a097a46df8db
+      internalID: 1779924324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_122
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 4096
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7392a0e19a7ce17469d21db034eb22e5
+      internalID: 603804095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_123
+      rect:
+        serializedVersion: 2
+        x: 6336
+        y: 4096
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e732ac2b9a2d2964ca483a64c46e6116
+      internalID: 361025071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_124
+      rect:
+        serializedVersion: 2
+        x: 6912
+        y: 4096
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b3fdee39dde984e997192bc29fcb38
+      internalID: -1522348846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_125
+      rect:
+        serializedVersion: 2
+        x: 7488
+        y: 4096
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af1f2c3818758914095025aa4f52aad6
+      internalID: -651927121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_126
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3072
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c482fb673dd78d341924548d37e32e60
+      internalID: 1769416921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_127
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 3072
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d18e375b1ab57247bad56a488cd3904
+      internalID: -1520415690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_128
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 3072
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e124234daecec40839a94a2156c312
+      internalID: 1111993171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_129
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 3072
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6ba4925536d7b428baef7a57616400
+      internalID: 2016653555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_130
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 3072
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 175ad3d7e9c077e4fab828a34370578c
+      internalID: 1357459324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_131
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 3072
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad1f4298aa5ba7c44ba3421760b27536
+      internalID: -94685702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_132
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 3072
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 093ecbed88e66ef49bb65f4fda8b61b1
+      internalID: 625026400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_133
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 3072
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f8479547f30724eaefccb876311b76
+      internalID: -862784031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_134
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 3072
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3045a32e231b3fb41b3bd5dcf19b8938
+      internalID: -674721217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_135
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 3072
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e52dc39345a4394abce197c58db65e3
+      internalID: 491611544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_136
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 3072
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1318c78f1568b842b0ebf61737de01b
+      internalID: 1592672859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_137
+      rect:
+        serializedVersion: 2
+        x: 6336
+        y: 3072
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d58a48283321994baa30351c6c9551e
+      internalID: 733356075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_138
+      rect:
+        serializedVersion: 2
+        x: 6912
+        y: 3072
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a8cf8b6988ebd34b9d110a2ad0afc5a
+      internalID: 1100519238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_139
+      rect:
+        serializedVersion: 2
+        x: 7488
+        y: 3072
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb58d2ded3df1a7478b9597ef9f20351
+      internalID: -1216614355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2048
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe502e531c655654db724a947fcdcfdb
+      internalID: 892296684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_141
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 2048
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25bfc6e6c9187a54c85d97c84ed68ea4
+      internalID: 1943216622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_142
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 2048
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbab04e0972864543853fa1e8cd1fc57
+      internalID: -1862306737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_143
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 2048
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6058fff9ff23a734fa086b9654c55259
+      internalID: -771638289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_144
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 2048
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c9af49a02a0244697776cde360c7d9
+      internalID: 295235955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_145
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 2048
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa22182df39f864cac9610dc0aeb68d
+      internalID: -652122908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_146
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 2048
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e036f8571dd8224419959cab508b44f4
+      internalID: -177104345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_147
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 2048
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a26424247bc453428a9ee5583e0f4b4
+      internalID: -1499766539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_148
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 2048
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470b6f593811f214291744664cfef4f3
+      internalID: -1666131887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_149
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 2048
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a0a6458d8b26e64f80dbb58e47db98a
+      internalID: 162062509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_150
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 2048
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a2fb04633675249a213f4a3586bd8d
+      internalID: 2122958876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_151
+      rect:
+        serializedVersion: 2
+        x: 6336
+        y: 2048
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20b3c702cfcf814c9339af5e52488bf
+      internalID: 1433249359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_152
+      rect:
+        serializedVersion: 2
+        x: 6912
+        y: 2048
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82b9fd0a5b10cb41b49f13787fefcb2
+      internalID: -598442410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_153
+      rect:
+        serializedVersion: 2
+        x: 7488
+        y: 2048
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38424a32b3e3e5d4583a7d1a813542e1
+      internalID: -377455795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_154
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08766f04fd8d4114b95e4b3ff905eca1
+      internalID: -724213833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_155
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1024
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda141595e3f2364f879cd0fae032cdd
+      internalID: 1743938840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_156
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1024
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b83d074ca41d444898b8aa0efaaee03
+      internalID: 1997599538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_157
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 1024
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfffd0c7daa908c4ebec24fec2abaeec
+      internalID: -190292674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_158
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1024
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 573e27451aa721e4db5bfa70b4e47d41
+      internalID: -570611582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_159
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1024
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0115c729fdede514cbd10b72c40d47eb
+      internalID: -1024673217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_160
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 1024
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21992c8d047abf445b082d45f2c6729d
+      internalID: -1374899836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_161
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 1024
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baad023cdb85a714794d0fad97c71ac2
+      internalID: 1331100960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_162
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 1024
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34077de5688303a4f97bcc1b1a30dfda
+      internalID: -321392917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_163
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 1024
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94bba94f31d56cc4f9372cd6da2042e7
+      internalID: 1002200464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_164
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 1024
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b725e04f73e62c841b84ab4ee95a4344
+      internalID: 1692530587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_165
+      rect:
+        serializedVersion: 2
+        x: 6336
+        y: 1024
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f795dd5c102f534ca02be04ea5db10a
+      internalID: 835649508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_166
+      rect:
+        serializedVersion: 2
+        x: 6912
+        y: 1024
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b0fa4edf0764c42b6792c38ea00d22
+      internalID: 1772834272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_167
+      rect:
+        serializedVersion: 2
+        x: 7488
+        y: 1024
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1ad28da4a04f04b8a35bfa65f9352a
+      internalID: 1645881434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_168
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c089eae5d7bad94b8ea80e110591661
+      internalID: 661512470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_169
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d4965f04c5ffaa429cd29a9590c99f0
+      internalID: -1939368898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_170
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 872258bd380f99940a7e215b8f53c8c1
+      internalID: -17873013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_171
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 0
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5adcaece18dc6264b9f9d5d48964f22f
+      internalID: -828873177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_172
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 0
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ad935841f6f5c4a9ecdc2b973ae608
+      internalID: 358747146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_173
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 0
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf233d72c47a0cb4aad386e670ed4a00
+      internalID: -1578123938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_174
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 0
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28823a2e365cdac41aff1cf7f145a892
+      internalID: 1176184235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_175
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 0
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac12f3c12ac61e42b4a983696b66ab5
+      internalID: 349049251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_176
+      rect:
+        serializedVersion: 2
+        x: 4608
+        y: 0
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 192eb4e23a381a041aa1508b8401733d
+      internalID: 661278419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_177
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 0
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ce6e5d97137c7498fe807decf16234
+      internalID: 804252709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_178
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 0
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feffbc88b8d00d447aff3c96ce7a4479
+      internalID: -127691889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MattisDancSheet_179
+      rect:
+        serializedVersion: 2
+        x: 6336
+        y: 0
+        width: 576
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb8c1bfcf214e147b850b5436706f71
+      internalID: -667205197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2396af838cf00684885cf3c208869cd7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":576.0,"y":1024.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      MattisDancSheet_0: 6542634202309103123
+      MattisDancSheet_1: 2071556206
+      MattisDancSheet_10: -972592960
+      MattisDancSheet_100: 811872321
+      MattisDancSheet_101: -614857973
+      MattisDancSheet_102: 46550943
+      MattisDancSheet_103: -1723726743
+      MattisDancSheet_104: 922069811
+      MattisDancSheet_105: 2079482107
+      MattisDancSheet_106: 3948645
+      MattisDancSheet_107: 253769849
+      MattisDancSheet_108: -1286385878
+      MattisDancSheet_109: 282489080
+      MattisDancSheet_11: -1962209841
+      MattisDancSheet_110: -2096340727
+      MattisDancSheet_111: -188640317
+      MattisDancSheet_112: -745179343
+      MattisDancSheet_113: 1882378707
+      MattisDancSheet_114: -1759867601
+      MattisDancSheet_115: -1422829613
+      MattisDancSheet_116: 1071302058
+      MattisDancSheet_117: 1564926404
+      MattisDancSheet_118: -1493618497
+      MattisDancSheet_119: -1246994228
+      MattisDancSheet_12: -1243944262
+      MattisDancSheet_120: 1244291321
+      MattisDancSheet_121: 1779924324
+      MattisDancSheet_122: 603804095
+      MattisDancSheet_123: 361025071
+      MattisDancSheet_124: -1522348846
+      MattisDancSheet_125: -651927121
+      MattisDancSheet_126: 1769416921
+      MattisDancSheet_127: -1520415690
+      MattisDancSheet_128: 1111993171
+      MattisDancSheet_129: 2016653555
+      MattisDancSheet_13: -127920689
+      MattisDancSheet_130: 1357459324
+      MattisDancSheet_131: -94685702
+      MattisDancSheet_132: 625026400
+      MattisDancSheet_133: -862784031
+      MattisDancSheet_134: -674721217
+      MattisDancSheet_135: 491611544
+      MattisDancSheet_136: 1592672859
+      MattisDancSheet_137: 733356075
+      MattisDancSheet_138: 1100519238
+      MattisDancSheet_139: -1216614355
+      MattisDancSheet_14: 1555020233
+      MattisDancSheet_140: 892296684
+      MattisDancSheet_141: 1943216622
+      MattisDancSheet_142: -1862306737
+      MattisDancSheet_143: -771638289
+      MattisDancSheet_144: 295235955
+      MattisDancSheet_145: -652122908
+      MattisDancSheet_146: -177104345
+      MattisDancSheet_147: -1499766539
+      MattisDancSheet_148: -1666131887
+      MattisDancSheet_149: 162062509
+      MattisDancSheet_15: 2009900650
+      MattisDancSheet_150: 2122958876
+      MattisDancSheet_151: 1433249359
+      MattisDancSheet_152: -598442410
+      MattisDancSheet_153: -377455795
+      MattisDancSheet_154: -724213833
+      MattisDancSheet_155: 1743938840
+      MattisDancSheet_156: 1997599538
+      MattisDancSheet_157: -190292674
+      MattisDancSheet_158: -570611582
+      MattisDancSheet_159: -1024673217
+      MattisDancSheet_16: -256262963
+      MattisDancSheet_160: -1374899836
+      MattisDancSheet_161: 1331100960
+      MattisDancSheet_162: -321392917
+      MattisDancSheet_163: 1002200464
+      MattisDancSheet_164: 1692530587
+      MattisDancSheet_165: 835649508
+      MattisDancSheet_166: 1772834272
+      MattisDancSheet_167: 1645881434
+      MattisDancSheet_168: 661512470
+      MattisDancSheet_169: -1939368898
+      MattisDancSheet_17: 1006749813
+      MattisDancSheet_170: -17873013
+      MattisDancSheet_171: -828873177
+      MattisDancSheet_172: 358747146
+      MattisDancSheet_173: -1578123938
+      MattisDancSheet_174: 1176184235
+      MattisDancSheet_175: 349049251
+      MattisDancSheet_176: 661278419
+      MattisDancSheet_177: 804252709
+      MattisDancSheet_178: -127691889
+      MattisDancSheet_179: -667205197
+      MattisDancSheet_18: -711050185
+      MattisDancSheet_19: 1597727499
+      MattisDancSheet_2: -972210502
+      MattisDancSheet_20: -622755098
+      MattisDancSheet_21: -1130226632
+      MattisDancSheet_22: 457502712
+      MattisDancSheet_23: -1751316105
+      MattisDancSheet_24: -1485325229
+      MattisDancSheet_25: 1768813316
+      MattisDancSheet_26: 199873211
+      MattisDancSheet_27: 1358302968
+      MattisDancSheet_28: -892464013
+      MattisDancSheet_29: -1960557103
+      MattisDancSheet_3: 644253851
+      MattisDancSheet_30: 918432753
+      MattisDancSheet_31: -1608178360
+      MattisDancSheet_32: -773884278
+      MattisDancSheet_33: -2008750060
+      MattisDancSheet_34: -513674520
+      MattisDancSheet_35: -1761563423
+      MattisDancSheet_36: 1336492443
+      MattisDancSheet_37: -1359944377
+      MattisDancSheet_38: 1321553404
+      MattisDancSheet_39: 1076309822
+      MattisDancSheet_4: 785597906
+      MattisDancSheet_40: 1186415387
+      MattisDancSheet_41: 177043317
+      MattisDancSheet_42: 1095897403
+      MattisDancSheet_43: 1559756755
+      MattisDancSheet_44: -4760856
+      MattisDancSheet_45: -1101373987
+      MattisDancSheet_46: -1682676601
+      MattisDancSheet_47: 19420424
+      MattisDancSheet_48: 677893488
+      MattisDancSheet_49: 756608480
+      MattisDancSheet_5: -700928965
+      MattisDancSheet_50: 807940798
+      MattisDancSheet_51: 154106073
+      MattisDancSheet_52: 812120523
+      MattisDancSheet_53: 231081493
+      MattisDancSheet_54: -79523526
+      MattisDancSheet_55: -579122595
+      MattisDancSheet_56: -1107672870
+      MattisDancSheet_57: 1238152823
+      MattisDancSheet_58: 1722818266
+      MattisDancSheet_59: 295409993
+      MattisDancSheet_6: -2043396143
+      MattisDancSheet_60: -1583526194
+      MattisDancSheet_61: -1199695914
+      MattisDancSheet_62: -1489130287
+      MattisDancSheet_63: 933282794
+      MattisDancSheet_64: 63932186
+      MattisDancSheet_65: -1893066868
+      MattisDancSheet_66: 384008198
+      MattisDancSheet_67: 818235376
+      MattisDancSheet_68: -653243075
+      MattisDancSheet_69: -38985594
+      MattisDancSheet_7: -2137422085
+      MattisDancSheet_70: -869193860
+      MattisDancSheet_71: 511696635
+      MattisDancSheet_72: -1673386996
+      MattisDancSheet_73: -1979729037
+      MattisDancSheet_74: -990326620
+      MattisDancSheet_75: 1897808360
+      MattisDancSheet_76: -1710642748
+      MattisDancSheet_77: 397132786
+      MattisDancSheet_78: -810197839
+      MattisDancSheet_79: 585939771
+      MattisDancSheet_8: -1112756281
+      MattisDancSheet_80: 939741288
+      MattisDancSheet_81: -1232101872
+      MattisDancSheet_82: 1903631808
+      MattisDancSheet_83: 2085737604
+      MattisDancSheet_84: 262940207
+      MattisDancSheet_85: 776779094
+      MattisDancSheet_86: 1563510551
+      MattisDancSheet_87: -425161881
+      MattisDancSheet_88: 275866520
+      MattisDancSheet_89: 359005854
+      MattisDancSheet_9: -1485167705
+      MattisDancSheet_90: -305514101
+      MattisDancSheet_91: 1704182224
+      MattisDancSheet_92: 686963452
+      MattisDancSheet_93: -62255621
+      MattisDancSheet_94: 1950324365
+      MattisDancSheet_95: -106610812
+      MattisDancSheet_96: -146121748
+      MattisDancSheet_97: 1653497357
+      MattisDancSheet_98: -1539542982
+      MattisDancSheet_99: -1563302680
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
