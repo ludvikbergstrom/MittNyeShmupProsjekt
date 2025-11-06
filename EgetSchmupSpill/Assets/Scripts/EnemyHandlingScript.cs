@@ -78,6 +78,9 @@ public class EnemyHandlingScript : MonoBehaviour
         {
             round++;
             startSpawn = true;
+            StopAllCoroutines();
+            enemyClones.Clear();
+
         }
 
         if (round == 2 && startSpawn)
@@ -91,6 +94,8 @@ public class EnemyHandlingScript : MonoBehaviour
             lowestY = -2.5f;
             movePause = 0.25f;
 
+
+
             StartCoroutine(SpawnEnemies(enemyPrefabTwo));
             shieldScript.SpawnShields();
             startSpawn = false;
@@ -101,10 +106,11 @@ public class EnemyHandlingScript : MonoBehaviour
             rows = 1;
             columns = 1;
             widthChange = 1.7f;
-            spawnHeightChange = 2.0f;
-            lowestY = -2.0f;
+            spawnHeightChange = 3.0f;
+            lowestY = -1.0f;
             movePause = 0.4f;
             fireRate = 0.9f;
+
 
             StartCoroutine(SpawnEnemies(enemyPrefabThree));
             shieldScript.SpawnShields();
@@ -120,7 +126,7 @@ public class EnemyHandlingScript : MonoBehaviour
     }
     IEnumerator SpawnEnemies(GameObject enemyPrefab)
     {
-        enemyClones.Clear();
+        
         float startX = transform.position.x;
         float startY = transform.position.y + spawnHeightChange;
 
@@ -158,6 +164,7 @@ public class EnemyHandlingScript : MonoBehaviour
             bool edgeHit = false;
             foreach (GameObject enemy in enemyClones)
             {
+                if (startSpawn) break;
                 if (enemy == null) continue;
 
                 if (enemy.transform.position.y < currentLowestY)
@@ -184,6 +191,7 @@ public class EnemyHandlingScript : MonoBehaviour
                 {
                     foreach (GameObject enemy in enemyClones)
                     {
+                        if (startSpawn) break;
                         if (enemy == null) continue;
 
                         enemy.transform.position += new Vector3(0, -stepY, 0); // move down
@@ -198,6 +206,7 @@ public class EnemyHandlingScript : MonoBehaviour
                 Vector3 moveStep = new Vector3(goLeft ? -stepX : stepX, 0, 0);
                 foreach (GameObject enemy in enemyClones)
                 {
+                    if (startSpawn) break;
                     if (enemy == null) continue;
 
                     enemy.transform.position += moveStep; // move sideways

@@ -11,7 +11,7 @@ public class PlayerSpawnerScript : MonoBehaviour
 
     void Start()
     {
-        SpawnPlayer();
+        Invoke("SpawnPlayer", 0.2f);
     }
 
     private void Update()
