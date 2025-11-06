@@ -1,9 +1,11 @@
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class PlayerSpawnerScript : MonoBehaviour
 {
     public GameObject playerPrefab;
+    public GameOverScreen gameOverScreen;
     public float respawnTime = 2.0f;
     private bool spawnScheduled = false;
 
@@ -20,6 +22,10 @@ public class PlayerSpawnerScript : MonoBehaviour
         {
             spawnScheduled = true;  // prevent multiple Invokes
             Invoke("SpawnPlayer", respawnTime);
+        }
+        if (PlayerHealthManagerScript.instance.playerHealth <= 0)
+        {
+            gameOverScreen.Setup(ScoreManagerScript.instance.currentScure);
         }
     }
 

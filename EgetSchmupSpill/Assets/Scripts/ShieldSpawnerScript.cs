@@ -11,7 +11,7 @@ public class ShieldSpawnerScript : MonoBehaviour
     }
 
 
-    void SpawnShields()
+    public void SpawnShields()
     {
         for (int i = 0; i < 4; i++)
         {

@@ -18,6 +18,7 @@ public class EnemyHandlingScript : MonoBehaviour
     public float spawnRate = 0.1f;
     public float widthChange = 0.5f;
     public float heightChange = 1.0f;
+    public float spawnHeightChange = 0.0f;
 
     [Header("Movement Settings")]
     public float stepX = 0.2f;      // horizontal step
@@ -37,6 +38,8 @@ public class EnemyHandlingScript : MonoBehaviour
     private int round = 1;
     private bool startSpawn = false;
     private int enemiesLeft;
+
+    public ShieldSpawnerScript shieldScript;
 
     void Start()
     { 
@@ -75,21 +78,42 @@ public class EnemyHandlingScript : MonoBehaviour
 
         if (round == 2 && startSpawn)
         {
-            rows = 1;
-            columns = 3;
+            rows = 2;
+            columns = 4;
+            stepX = 0.4f;
             widthChange = 1.5f;
-            heightChange = 1.0f;
+            heightChange = 2.0f;
+            spawnHeightChange = 1.0f;
+            lowestY = -2.5f;
+            movePause = 0.25f;
+
             StartCoroutine(SpawnEnemies(enemyPrefabTwo));
+            shieldScript.SpawnShields();
             startSpawn = false;
         }
-        
+
+        if (round == 3 && startSpawn)
+        {
+            rows = 1;
+            columns = 1;
+            widthChange = 1.7f;
+            spawnHeightChange = 2.0f;
+            lowestY = -2.0f;
+            movePause = 0.4f;
+            fireRate = 0.9f;
+
+            StartCoroutine(SpawnEnemies(enemyPrefabThree));
+            shieldScript.SpawnShields();
+            startSpawn = false;
+        }
 
 
     }
     IEnumerator SpawnEnemies(GameObject enemyPrefab)
     {
+        enemyClones.Clear();
         float startX = transform.position.x;
-        float startY = transform.position.y;
+        float startY = transform.position.y + spawnHeightChange;
 
         for (int i = 0; i < rows; i++)
         {

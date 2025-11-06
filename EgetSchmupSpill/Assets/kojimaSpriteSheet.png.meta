@@ -1,0 +1,5297 @@
+fileFormatVersion: 2
+guid: 167009229e38a274e80436dad8a6e210
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7063608579944272994
+    second: kojimaSpriteSheet_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6216
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9b2500db6509fd90800000000000000
+      internalID: -7063608579944272994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 6216
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9810a34fb9eee4d9496b759f514132
+      internalID: -1137692357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 6216
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48aa5b9dc812780479cbbd6d9b587ef4
+      internalID: 549166650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 6216
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273aafd37b2946f4aa22927e941c3822
+      internalID: 445297438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 6216
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7b1492279db0f49a1b8b095cfe50c7
+      internalID: -1103917819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 6216
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7b84ddbc2fffe45b6a27df87126cc2
+      internalID: -921003311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 6216
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a73238887dc298d4b8c97b066c4009be
+      internalID: 250156644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 6216
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa2595603cc62241b9f372062975a56
+      internalID: 721785708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 6216
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ad4abc2a0096f429fb8ffdc6ca213f
+      internalID: -1436741991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 6216
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54eebd5b97ebec43a6350ab3c58a161
+      internalID: -1969873135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 6216
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd0be249f7e77d44a00f3cc313da133
+      internalID: -1080362585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 6216
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9191d3600818a7f4da3967ec32559e48
+      internalID: 144737695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 6216
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a4ba430dc1f19489bd992f3bd2eb00
+      internalID: -1551596889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 6216
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6774bd7d0cedb5a45aea69e88b93cab7
+      internalID: -2085106273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 6216
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c50d38107537b24ea9f8b4e6ce7ab49
+      internalID: 1709186650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5772
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8243e14f9eb3e141a6dca273434873a
+      internalID: 10464359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 5772
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50995731ae965c74cb357d27021cc3f0
+      internalID: 348884055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 5772
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2279a9fa15a7d034a8c237b5e048ce92
+      internalID: -54602705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 5772
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91e0870c8de4554f8a4ef0480d3bf7e
+      internalID: -803958556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 5772
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f464d6c18b5127c4cb28d1eacae5efe0
+      internalID: -1402514741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 5772
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d642a6dbc1e7d14a8b3a08e300a38ec
+      internalID: -2025246500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 5772
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d33245c71982db846bb2bff6f7443fcf
+      internalID: -1512105415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 5772
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3058f5b451703ad4589df15ef24976b7
+      internalID: 1271217388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 5772
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258d26bcc7164ad499bae6d586f5a2c8
+      internalID: 1453638643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 5772
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e666fb7cda8c8441b54ebb9e34f7c9e
+      internalID: -426289265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 5772
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc1db52f8d11b1b4f8c2b5dc6af71690
+      internalID: -1714047626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 5772
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ea2ec73c162c343aa9dc9d9a032307
+      internalID: -475662642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 5772
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b436035c23749fe4e9af0fb7965b175d
+      internalID: 906071154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 5772
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887a3d4b95a697b4ba380baab92da5c0
+      internalID: -827960507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 5772
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075191ec77c34eb448e0a647f41bddf9
+      internalID: -1717911204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5328
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150a799104b99fd4bbbfa7016f112a82
+      internalID: -1251784724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 5328
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f2b391f7a97b24e99bbd9e7a22e1ec
+      internalID: 1342291783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 5328
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0daf4631188c5ea44a0f6c2d68ebd8ce
+      internalID: -353313117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 5328
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e638d25e1fc2834a81f414b9280cad3
+      internalID: 743519279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 5328
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 722e02b0193a4ae44a231f8668881753
+      internalID: -521950968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 5328
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a353b3d49f41f4b468c86f32067e2868
+      internalID: -224865259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 5328
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38275890696998948ae7d9c2a3fe1104
+      internalID: -953480597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 5328
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f3a1e979cee9a4f91fe80273f1075b
+      internalID: -2014954509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 5328
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2c0c10a7ecc1247998f15870ff55af
+      internalID: -358219629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 5328
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f3d30726f385b4892e5278daa623e9
+      internalID: 1259159733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 5328
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2b857a1178b054cbffe3b4d0920fb8
+      internalID: 419946588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 5328
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a846ae61d46ab9408b7465d33af3ac5
+      internalID: -47469303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 5328
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 849b08a52661c164696e054a8925d2f9
+      internalID: 366078812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 5328
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2845d9244411c46865d1f4cb5a62f9
+      internalID: 1672979184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 5328
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de30c6f7200ba6b449afa640e42b291d
+      internalID: -673517935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4884
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576fac5fa4078fd47b6ac0622efc4a93
+      internalID: 127534538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 4884
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec86f17de5434814fafbb8d13dae50ad
+      internalID: -1645244888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 4884
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80bd27b23936e14da9a9ccaff5b6be4
+      internalID: 578086107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 4884
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faaf0d89151c83449b47b72673b95aee
+      internalID: -1160368352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 4884
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac0f17605d1db6f4f9025eebffc5bf82
+      internalID: 903630299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 4884
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c7afe73f46ae704e927c2247ffbbab8
+      internalID: 1738375273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 4884
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7fd99480d2a89f43b5ce59781209476
+      internalID: 1537683272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 4884
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b10b716acd6ab48be08b4aa41a460f
+      internalID: -380722842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 4884
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8546cf058b49a0b4f8accd1a821a8188
+      internalID: -1781057365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 4884
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cdfa101fb3e424429b1c3693bcc97e4
+      internalID: 83920445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 4884
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f514f2e0d52daf48ba7d00c6693eaa6
+      internalID: -1024237229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 4884
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c86e66021e4749e468b22b609a53f10e
+      internalID: 166660218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 4884
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b778c761b8b131428f654898af6a7aa
+      internalID: -1886575784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 4884
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c686cf395d1748f47ac7338d00963b32
+      internalID: -831148790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 4884
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f396200eae35a2f43a20551cb7c71138
+      internalID: -1381438955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4440
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8aa0a7b26b91c04587ded76c10b6d45
+      internalID: 1763908830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 4440
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d67048e2e280bac49989029bbc49b708
+      internalID: -1509979471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 4440
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 514683e176575794aa21deb6e40b1650
+      internalID: 1039102090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 4440
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c78737fcde4939e4fa531cfc122e4d94
+      internalID: -944996037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_64
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 4440
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e00c47ad4416294fa8c831bd4069f5d
+      internalID: -1891774652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_65
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 4440
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dbe9c31110782e4199a3c1021d223af
+      internalID: 963222753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_66
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 4440
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09378652b4d21544cba7b60398fcebc8
+      internalID: 1746054158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_67
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 4440
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a018890d0540254f95e67998f128d51
+      internalID: 742850364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_68
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 4440
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a026cd2124391494082725fde5084737
+      internalID: -239445986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_69
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 4440
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b40d6d212bcaef43b2f30562bbfd519
+      internalID: 2077193141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_70
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 4440
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 608bcb9a6a5632e47a75c18c9c551067
+      internalID: 1087331818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_71
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 4440
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06d738a7062ab96419bb0e416fd736f0
+      internalID: 1098684843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_72
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 4440
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f85ce599c51a448b91ae84ff017322
+      internalID: -48798112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_73
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 4440
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4482905de19135f49b93976ed569cf18
+      internalID: 689910466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_74
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 4440
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1789bcc3fb70e429c95a4d60ea7fa5
+      internalID: -1816957695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3996
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c182a6bcb1e9814b87b548a5afa74c5
+      internalID: 465801022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_76
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 3996
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca061033860dee488aa78ccbabb6fa8
+      internalID: -1325204438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_77
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 3996
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 736a29c3df997ea419f75dab986c22ad
+      internalID: 419660010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_78
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 3996
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896bb6155b72a054d89cdeb429a3f73c
+      internalID: 1306697670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_79
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 3996
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ce2f4310c18ac4cb77ea0102ee914d
+      internalID: -1572394518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_80
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 3996
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f989998fe20fbf14b9caa01f8394646b
+      internalID: 267562402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_81
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 3996
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01c2ecc9c9ef9442885a107e47f86c5
+      internalID: -1704021934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_82
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 3996
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e7fab6410015e4fae7b16642c40287
+      internalID: -548985727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_83
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 3996
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d3637745c0831499d2e56ddab39b88
+      internalID: -2022797743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_84
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 3996
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8577d51c44b1044a5d4d7b5644fe3e
+      internalID: 1270179254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_85
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 3996
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450c814e87f9fb74b8e870d51c04646d
+      internalID: -154023526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_86
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 3996
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 573be2ca07c34f341a7160251458ef1c
+      internalID: -1435093123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_87
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 3996
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf97b25192b42a94e9fa976a15499003
+      internalID: -123014447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_88
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 3996
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9896070aed8c6e246b65ba07d20722a9
+      internalID: -82051736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_89
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 3996
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dea2dfac1019cc48b3f94189f817ed8
+      internalID: 357585124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3552
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a526b454a506f408233ad740cae544
+      internalID: -1846874666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_91
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 3552
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4bf055a5c0872841bc7073f26aec0ef
+      internalID: 1766081804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_92
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 3552
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab66f5bd2e19fb94aa0e3e65f6836fcc
+      internalID: 1406571997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_93
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 3552
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762da2b46e3686749b2bf06d885e55cd
+      internalID: 1017324296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_94
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 3552
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47cb4496caeadaf43b958133cfd270b2
+      internalID: 1420138275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_95
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 3552
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91f404453d6fa346ac734b0772aaaa9
+      internalID: -181123771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_96
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 3552
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54476efd3fe9e414dbe9ea00df9d1228
+      internalID: -1462380298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_97
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 3552
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7753cf012acd2c245b663e8631915048
+      internalID: -1382132045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_98
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 3552
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6dc4c065b351044ae86a82a139d3f1
+      internalID: -1484533767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_99
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 3552
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05149ea1e7a6f444ebdc9112e4ac1674
+      internalID: -1847427002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_100
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 3552
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 968e9ca99784561419444174800fdb7b
+      internalID: -1099549247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_101
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 3552
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0587236defbdcd74ea5f886f43b4264b
+      internalID: 1600381292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_102
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 3552
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5726c6eaa86797409409b6548c506fe
+      internalID: 1374382892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_103
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 3552
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e02561a72920e804eb946f19ed4f2593
+      internalID: 510008764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_104
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 3552
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467e140f5016c4645ad6f8454fa33fd0
+      internalID: -284011924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3108
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e540e011af9e948831d837073670c6
+      internalID: 61169207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_106
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 3108
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5baa433fbf3b2074497fde7acaa7e351
+      internalID: 753577970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_107
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 3108
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cfa7b9d95a77ed488b411fcf81e7647
+      internalID: -1189978005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_108
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 3108
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55e5afcdcace6f4c957f10d95c4e760
+      internalID: 1753793454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_109
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 3108
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9185c51348855cf4da0f881a4967e655
+      internalID: 1401706612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_110
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 3108
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9751223490e62ae46afb70d2e0ad101a
+      internalID: -1518977700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_111
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 3108
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb355cb015ad21408794b7aa66fee6c
+      internalID: -2007288450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_112
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 3108
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1570810beec0f7941ac8e1cab110009d
+      internalID: 403615333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_113
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 3108
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798663c0c179ffc47a3c7b9e27a4b3ae
+      internalID: 1902777486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_114
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 3108
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35680205b2b84a246a09582f4fc0ae45
+      internalID: -429924298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_115
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 3108
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37eaad4a244a39849909ef6df9362ad6
+      internalID: -1119941641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_116
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 3108
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 058cc24b85c5bd94d9ed2a26c0d2a6c0
+      internalID: -560006595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_117
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 3108
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab6dee47f142c447be826f42c1a94cf
+      internalID: -464147964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_118
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 3108
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b41f384a3751a488a7bc9af3930f65
+      internalID: -2077583213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_119
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 3108
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f969b543b68f3374fbfd82d8cd0a18cc
+      internalID: -1678236761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2664
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db2c614e94882f448a550e2e554eb1b
+      internalID: -626311360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_121
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 2664
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: effa3cbfd834fef499cb8c59e8130379
+      internalID: -1977095312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_122
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2664
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eefcc97806f38df4c8fe4894aaa2a81b
+      internalID: 293386336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_123
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 2664
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20fb83cedd6440458d8df8164db5720
+      internalID: 449584414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_124
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2664
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26159ec6c70e8bf42aeea8fd99398456
+      internalID: -679210011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_125
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 2664
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d4ea680b7bc64a4f9b6567517f0e5e8
+      internalID: -783902252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_126
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2664
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac730ace80d9af4185cb002cc8e696a
+      internalID: 552281538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_127
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 2664
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616bf9342f7157c45ae7937d6c0ad613
+      internalID: 1490417859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_128
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2664
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1211f8bfe8e157445b8635ba59d6bf82
+      internalID: 447819615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_129
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 2664
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd42d46e573770e4ba4265b98f618ee8
+      internalID: -1131911731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_130
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 2664
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca3fb54b85fbdb4cab602a68dbd7654
+      internalID: -440164579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_131
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 2664
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81b0d7f3a925314b948b84fd6cc5f5b
+      internalID: -1723039377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_132
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2664
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7494911f5b8a036439614b6423d500c5
+      internalID: 1439936563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_133
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 2664
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ab28cceff71e54cb1491a1c6b23fdf
+      internalID: 568850135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_134
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 2664
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3fab1efbcb16b44898ef6fad8b6912
+      internalID: 571588626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_135
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2220
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778e9f09e265fd0429bc2fcfc8453b27
+      internalID: 694519003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_136
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 2220
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a483993a80231294eb8fe235957241b1
+      internalID: 1454226581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_137
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2220
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c497a3f91dcbcd74296b8de8743660fa
+      internalID: 2043586232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_138
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 2220
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7788a672e857b164c9757a83fad48351
+      internalID: 365600406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_139
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2220
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0727a9dfd7d75eb48b4c47be858273cc
+      internalID: -2051664699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_140
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 2220
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a79b7c59fc8344a99221775ca2a5ff
+      internalID: 1470760782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_141
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2220
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00643cf421aea342b36f49eff9e0e5b
+      internalID: -1564593965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_142
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 2220
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd1880c465413142b563501cd428cf7
+      internalID: -604652609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_143
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2220
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e49aa785b270145a3a179c1a73a746
+      internalID: 1107369535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_144
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 2220
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34cdc074269cfa84d8a6de7ec07caf43
+      internalID: -1749452464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_145
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 2220
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07282ac185279a0439f2ef776938ae6b
+      internalID: -1761813623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_146
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 2220
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01816d5c05c3a694eb9c0648b55e0d35
+      internalID: 922749565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_147
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2220
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2abfd286cb0ae15459363d2bbbc9df08
+      internalID: -562168924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_148
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 2220
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e3f8927461eec43adf1f3bffcb52f0
+      internalID: -1338799833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_149
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 2220
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e36f12f5f842d49992cfc336216c59
+      internalID: 926812635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_150
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1776
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe11e55da65b404baee5ff5801c2d3a
+      internalID: -542464785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_151
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1776
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47fde34505518824fb10ac20b62187bf
+      internalID: 1745559860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_152
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1776
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d30d5062da8614482f49c979b381bc
+      internalID: -1418174005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_153
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1776
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508140446fc49d84797c09b47984da86
+      internalID: 625740987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_154
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1776
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b08792a69bc834aadb358f7c6c10fa
+      internalID: -2014010834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_155
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 1776
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a63d2a77a93605541ae7c2a1fb5b7918
+      internalID: 1681617882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_156
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1776
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4216daeb29734429565a17f9526dd7
+      internalID: 1543677929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_157
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 1776
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f6e6189385567a4c9f84a466750b092
+      internalID: -700022045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_158
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1776
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1dfe007c70274c43b5f57df8dcdaa71
+      internalID: -1654586785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_159
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 1776
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e30c60eca554ac45a00eeeaf97512c9
+      internalID: 1055885856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_160
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1776
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc64cdc82336d9241acc55982c8f5c36
+      internalID: -1273998199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_161
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 1776
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 902211163efa93643b11abbf46691560
+      internalID: -1614547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_162
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1776
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b96ac490a7cd81a44a60b9912028325c
+      internalID: -654049149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_163
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 1776
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0772e052c27125f498c27aace345c180
+      internalID: 508022943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_164
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 1776
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd99241a0c125224998f6f17ccc8cfc5
+      internalID: -2040760870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_165
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1332
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce9772e5889c6c642b33d3f1906354c9
+      internalID: -1640709033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_166
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1332
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68ec4deafb4b4f4bb6d0cb05a1792bb
+      internalID: -950943613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_167
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1332
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb3a7c23c5ea1543a3ee9ad47a04ced
+      internalID: -1670331484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_168
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1332
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed512cd42e6a5c419e10c9719f6da33
+      internalID: 632048560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_169
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1332
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b45e0da1f537f04e88d24226e9d8662
+      internalID: -1854366911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_170
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 1332
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f86c8bfecddfb4eb0eef5320d4bc0b
+      internalID: 151719211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_171
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1332
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500029fde931f8e4c96c41ee31a20772
+      internalID: 2041771024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_172
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 1332
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa67cc9975a61ab488eecc2dfdfed25a
+      internalID: -365591430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_173
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1332
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7ace8d7d904024791e9109221e45c0
+      internalID: -180519073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_174
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 1332
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c3878b7fc7d784d9a29bbd4084d9e2
+      internalID: 779299178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_175
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1332
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e108906e378f854bb5bb728beb30eac
+      internalID: 1234203954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_176
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 1332
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77df52e17731976458b9e14e8f464cac
+      internalID: -21457715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_177
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1332
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a240810933fe44893d1e33a4ea8a73
+      internalID: 300447184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_178
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 1332
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6c1be5447839641a623c1591d44cfb
+      internalID: 1545608819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_179
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 1332
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43085c2d1c1536643a14abce72f0c1a3
+      internalID: -800472003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_180
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 888
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c33b1a09a47b84ea2fa3f7e8a0e744
+      internalID: -620826973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_181
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 888
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e2a82f62ea5b5d45ae898993c266533
+      internalID: -1492167460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_182
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 888
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeaf6890be64430419cd52de1f6f3055
+      internalID: -1110781479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_183
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 888
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da71aa0f9096eb4aa4029b8f48f473c
+      internalID: 1844074815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_184
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 888
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c63b271ed4d8f44db0620f5dff0fb32
+      internalID: 603589486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_185
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 888
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d9de8109e117f42bb24fa0c91c60a0
+      internalID: 1695714529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_186
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 888
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 206246513e3bbe545a2f19463c872a8a
+      internalID: 1701798979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_187
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 888
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8667f38b567994f4db33dc4b131ee62c
+      internalID: 781539541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_188
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 888
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4414e21bb52ad43a3da6489067d684
+      internalID: -1397400292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_189
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 888
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ee5cf97f48e8d4397fa5a9d5cb7938
+      internalID: 298851445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_190
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 888
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1012c2b955f890b4c8a69ea9f5071ada
+      internalID: 680517819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_191
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 888
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f30fe208d6c7f74dad803a3756596b3
+      internalID: -1587086800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_192
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 888
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b6010d457fba7942860301f2f5090d4
+      internalID: -1546687537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_193
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 888
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7bd6b6f40b07c2489fc05320fd0044f
+      internalID: -895600419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_194
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 888
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cdd094cc23b9fd4fb06c736eccf2c8a
+      internalID: -167395825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_195
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 444
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6799d4564a6759148970461e0c1c7e24
+      internalID: -1948588222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_196
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 444
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f39f988292640348ac141a555f19333
+      internalID: 133624090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_197
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 444
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5ea21716387d54ea9c62cd158341da
+      internalID: -2106610727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_198
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 444
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738abf782c8080e4fb14584eb72e1b6e
+      internalID: -635523271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_199
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 444
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b73240176c4ee4c449f2e68d437b251b
+      internalID: -1791815223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_200
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 444
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e1e78a2dd47c24f90ee6c4948c5308
+      internalID: 1700823369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_201
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 444
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1434731d3634b5d4598d712a1e855174
+      internalID: -1024202746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_202
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 444
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17fdd9169db70504e9e553fc6ec5234d
+      internalID: 1641044836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_203
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 444
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39232f6a7e912954b9e1a960aa908a1a
+      internalID: 1869211621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_204
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 444
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f574425bb38ae9c40aab942ce2c4242b
+      internalID: -1768721178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_205
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 444
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53990d566e012c141a0d41ad8b75e910
+      internalID: -1434056966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_206
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 444
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1210c0c91da4749b3fb4b82ae9b4d6
+      internalID: -759230514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_207
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 444
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1644b673debcacd489dd6543a79e2ebb
+      internalID: 206729794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_208
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 444
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b03928fd68fce24e91616cc94cfcd2c
+      internalID: -574104641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_209
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 444
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e9798486d567f4c803c2ee940fc1b7
+      internalID: -838850933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_210
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3def66caed8b9104babbf6d391356c70
+      internalID: -970881537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_211
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 0
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c0b0005a21c1e47bc0b1ec486d8c0e
+      internalID: 1025476458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_212
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60043bc3ad27f0a49ace08afd5a4878a
+      internalID: -1278974060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_213
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 0
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2694977db7df93f4285a30c70d22237e
+      internalID: 719560467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_214
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349f24f8ddc4f2a4faf7df48ff74a98d
+      internalID: 368114118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_215
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 0
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d888ab3d7c2c4754ea88dfdfc242b54c
+      internalID: 560870644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_216
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea415227cff6d54880f63e2da971984
+      internalID: -2031799952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_217
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 0
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab3c70edc779214d82f3b94c8c61e82
+      internalID: 1669003931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_218
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 0
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a44727935fdfd414cb85a2f35a41ff9c
+      internalID: -1926774866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_219
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 0
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2203c46575c3745b54a865ecf11d00
+      internalID: -1257672261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_220
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 0
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c16be0164d41348a8741ff45e23892
+      internalID: -852828283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_221
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 0
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1112f3a6652507419fe7090ca398466
+      internalID: -1815512101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_222
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 0
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee722b79dd6fc274a90ba16fa1db33ce
+      internalID: 1195651787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_223
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 0
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51198fdaa237b9c4eb34958194f24e7c
+      internalID: 618416004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kojimaSpriteSheet_224
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 0
+        width: 250
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb52c2d49033c348aaf07d56e4c5965
+      internalID: -1430768219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: eb2b50747cae9714cae0a6ab4a9858f9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":250.0,"y":444.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      kojimaSpriteSheet_0: -7063608579944272994
+      kojimaSpriteSheet_1: -1137692357
+      kojimaSpriteSheet_10: -1080362585
+      kojimaSpriteSheet_100: -1099549247
+      kojimaSpriteSheet_101: 1600381292
+      kojimaSpriteSheet_102: 1374382892
+      kojimaSpriteSheet_103: 510008764
+      kojimaSpriteSheet_104: -284011924
+      kojimaSpriteSheet_105: 61169207
+      kojimaSpriteSheet_106: 753577970
+      kojimaSpriteSheet_107: -1189978005
+      kojimaSpriteSheet_108: 1753793454
+      kojimaSpriteSheet_109: 1401706612
+      kojimaSpriteSheet_11: 144737695
+      kojimaSpriteSheet_110: -1518977700
+      kojimaSpriteSheet_111: -2007288450
+      kojimaSpriteSheet_112: 403615333
+      kojimaSpriteSheet_113: 1902777486
+      kojimaSpriteSheet_114: -429924298
+      kojimaSpriteSheet_115: -1119941641
+      kojimaSpriteSheet_116: -560006595
+      kojimaSpriteSheet_117: -464147964
+      kojimaSpriteSheet_118: -2077583213
+      kojimaSpriteSheet_119: -1678236761
+      kojimaSpriteSheet_12: -1551596889
+      kojimaSpriteSheet_120: -626311360
+      kojimaSpriteSheet_121: -1977095312
+      kojimaSpriteSheet_122: 293386336
+      kojimaSpriteSheet_123: 449584414
+      kojimaSpriteSheet_124: -679210011
+      kojimaSpriteSheet_125: -783902252
+      kojimaSpriteSheet_126: 552281538
+      kojimaSpriteSheet_127: 1490417859
+      kojimaSpriteSheet_128: 447819615
+      kojimaSpriteSheet_129: -1131911731
+      kojimaSpriteSheet_13: -2085106273
+      kojimaSpriteSheet_130: -440164579
+      kojimaSpriteSheet_131: -1723039377
+      kojimaSpriteSheet_132: 1439936563
+      kojimaSpriteSheet_133: 568850135
+      kojimaSpriteSheet_134: 571588626
+      kojimaSpriteSheet_135: 694519003
+      kojimaSpriteSheet_136: 1454226581
+      kojimaSpriteSheet_137: 2043586232
+      kojimaSpriteSheet_138: 365600406
+      kojimaSpriteSheet_139: -2051664699
+      kojimaSpriteSheet_14: 1709186650
+      kojimaSpriteSheet_140: 1470760782
+      kojimaSpriteSheet_141: -1564593965
+      kojimaSpriteSheet_142: -604652609
+      kojimaSpriteSheet_143: 1107369535
+      kojimaSpriteSheet_144: -1749452464
+      kojimaSpriteSheet_145: -1761813623
+      kojimaSpriteSheet_146: 922749565
+      kojimaSpriteSheet_147: -562168924
+      kojimaSpriteSheet_148: -1338799833
+      kojimaSpriteSheet_149: 926812635
+      kojimaSpriteSheet_15: 10464359
+      kojimaSpriteSheet_150: -542464785
+      kojimaSpriteSheet_151: 1745559860
+      kojimaSpriteSheet_152: -1418174005
+      kojimaSpriteSheet_153: 625740987
+      kojimaSpriteSheet_154: -2014010834
+      kojimaSpriteSheet_155: 1681617882
+      kojimaSpriteSheet_156: 1543677929
+      kojimaSpriteSheet_157: -700022045
+      kojimaSpriteSheet_158: -1654586785
+      kojimaSpriteSheet_159: 1055885856
+      kojimaSpriteSheet_16: 348884055
+      kojimaSpriteSheet_160: -1273998199
+      kojimaSpriteSheet_161: -1614547
+      kojimaSpriteSheet_162: -654049149
+      kojimaSpriteSheet_163: 508022943
+      kojimaSpriteSheet_164: -2040760870
+      kojimaSpriteSheet_165: -1640709033
+      kojimaSpriteSheet_166: -950943613
+      kojimaSpriteSheet_167: -1670331484
+      kojimaSpriteSheet_168: 632048560
+      kojimaSpriteSheet_169: -1854366911
+      kojimaSpriteSheet_17: -54602705
+      kojimaSpriteSheet_170: 151719211
+      kojimaSpriteSheet_171: 2041771024
+      kojimaSpriteSheet_172: -365591430
+      kojimaSpriteSheet_173: -180519073
+      kojimaSpriteSheet_174: 779299178
+      kojimaSpriteSheet_175: 1234203954
+      kojimaSpriteSheet_176: -21457715
+      kojimaSpriteSheet_177: 300447184
+      kojimaSpriteSheet_178: 1545608819
+      kojimaSpriteSheet_179: -800472003
+      kojimaSpriteSheet_18: -803958556
+      kojimaSpriteSheet_180: -620826973
+      kojimaSpriteSheet_181: -1492167460
+      kojimaSpriteSheet_182: -1110781479
+      kojimaSpriteSheet_183: 1844074815
+      kojimaSpriteSheet_184: 603589486
+      kojimaSpriteSheet_185: 1695714529
+      kojimaSpriteSheet_186: 1701798979
+      kojimaSpriteSheet_187: 781539541
+      kojimaSpriteSheet_188: -1397400292
+      kojimaSpriteSheet_189: 298851445
+      kojimaSpriteSheet_19: -1402514741
+      kojimaSpriteSheet_190: 680517819
+      kojimaSpriteSheet_191: -1587086800
+      kojimaSpriteSheet_192: -1546687537
+      kojimaSpriteSheet_193: -895600419
+      kojimaSpriteSheet_194: -167395825
+      kojimaSpriteSheet_195: -1948588222
+      kojimaSpriteSheet_196: 133624090
+      kojimaSpriteSheet_197: -2106610727
+      kojimaSpriteSheet_198: -635523271
+      kojimaSpriteSheet_199: -1791815223
+      kojimaSpriteSheet_2: 549166650
+      kojimaSpriteSheet_20: -2025246500
+      kojimaSpriteSheet_200: 1700823369
+      kojimaSpriteSheet_201: -1024202746
+      kojimaSpriteSheet_202: 1641044836
+      kojimaSpriteSheet_203: 1869211621
+      kojimaSpriteSheet_204: -1768721178
+      kojimaSpriteSheet_205: -1434056966
+      kojimaSpriteSheet_206: -759230514
+      kojimaSpriteSheet_207: 206729794
+      kojimaSpriteSheet_208: -574104641
+      kojimaSpriteSheet_209: -838850933
+      kojimaSpriteSheet_21: -1512105415
+      kojimaSpriteSheet_210: -970881537
+      kojimaSpriteSheet_211: 1025476458
+      kojimaSpriteSheet_212: -1278974060
+      kojimaSpriteSheet_213: 719560467
+      kojimaSpriteSheet_214: 368114118
+      kojimaSpriteSheet_215: 560870644
+      kojimaSpriteSheet_216: -2031799952
+      kojimaSpriteSheet_217: 1669003931
+      kojimaSpriteSheet_218: -1926774866
+      kojimaSpriteSheet_219: -1257672261
+      kojimaSpriteSheet_22: 1271217388
+      kojimaSpriteSheet_220: -852828283
+      kojimaSpriteSheet_221: -1815512101
+      kojimaSpriteSheet_222: 1195651787
+      kojimaSpriteSheet_223: 618416004
+      kojimaSpriteSheet_224: -1430768219
+      kojimaSpriteSheet_23: 1453638643
+      kojimaSpriteSheet_24: -426289265
+      kojimaSpriteSheet_25: -1714047626
+      kojimaSpriteSheet_26: -475662642
+      kojimaSpriteSheet_27: 906071154
+      kojimaSpriteSheet_28: -827960507
+      kojimaSpriteSheet_29: -1717911204
+      kojimaSpriteSheet_3: 445297438
+      kojimaSpriteSheet_30: -1251784724
+      kojimaSpriteSheet_31: 1342291783
+      kojimaSpriteSheet_32: -353313117
+      kojimaSpriteSheet_33: 743519279
+      kojimaSpriteSheet_34: -521950968
+      kojimaSpriteSheet_35: -224865259
+      kojimaSpriteSheet_36: -953480597
+      kojimaSpriteSheet_37: -2014954509
+      kojimaSpriteSheet_38: -358219629
+      kojimaSpriteSheet_39: 1259159733
+      kojimaSpriteSheet_4: -1103917819
+      kojimaSpriteSheet_40: 419946588
+      kojimaSpriteSheet_41: -47469303
+      kojimaSpriteSheet_42: 366078812
+      kojimaSpriteSheet_43: 1672979184
+      kojimaSpriteSheet_44: -673517935
+      kojimaSpriteSheet_45: 127534538
+      kojimaSpriteSheet_46: -1645244888
+      kojimaSpriteSheet_47: 578086107
+      kojimaSpriteSheet_48: -1160368352
+      kojimaSpriteSheet_49: 903630299
+      kojimaSpriteSheet_5: -921003311
+      kojimaSpriteSheet_50: 1738375273
+      kojimaSpriteSheet_51: 1537683272
+      kojimaSpriteSheet_52: -380722842
+      kojimaSpriteSheet_53: -1781057365
+      kojimaSpriteSheet_54: 83920445
+      kojimaSpriteSheet_55: -1024237229
+      kojimaSpriteSheet_56: 166660218
+      kojimaSpriteSheet_57: -1886575784
+      kojimaSpriteSheet_58: -831148790
+      kojimaSpriteSheet_59: -1381438955
+      kojimaSpriteSheet_6: 250156644
+      kojimaSpriteSheet_60: 1763908830
+      kojimaSpriteSheet_61: -1509979471
+      kojimaSpriteSheet_62: 1039102090
+      kojimaSpriteSheet_63: -944996037
+      kojimaSpriteSheet_64: -1891774652
+      kojimaSpriteSheet_65: 963222753
+      kojimaSpriteSheet_66: 1746054158
+      kojimaSpriteSheet_67: 742850364
+      kojimaSpriteSheet_68: -239445986
+      kojimaSpriteSheet_69: 2077193141
+      kojimaSpriteSheet_7: 721785708
+      kojimaSpriteSheet_70: 1087331818
+      kojimaSpriteSheet_71: 1098684843
+      kojimaSpriteSheet_72: -48798112
+      kojimaSpriteSheet_73: 689910466
+      kojimaSpriteSheet_74: -1816957695
+      kojimaSpriteSheet_75: 465801022
+      kojimaSpriteSheet_76: -1325204438
+      kojimaSpriteSheet_77: 419660010
+      kojimaSpriteSheet_78: 1306697670
+      kojimaSpriteSheet_79: -1572394518
+      kojimaSpriteSheet_8: -1436741991
+      kojimaSpriteSheet_80: 267562402
+      kojimaSpriteSheet_81: -1704021934
+      kojimaSpriteSheet_82: -548985727
+      kojimaSpriteSheet_83: -2022797743
+      kojimaSpriteSheet_84: 1270179254
+      kojimaSpriteSheet_85: -154023526
+      kojimaSpriteSheet_86: -1435093123
+      kojimaSpriteSheet_87: -123014447
+      kojimaSpriteSheet_88: -82051736
+      kojimaSpriteSheet_89: 357585124
+      kojimaSpriteSheet_9: -1969873135
+      kojimaSpriteSheet_90: -1846874666
+      kojimaSpriteSheet_91: 1766081804
+      kojimaSpriteSheet_92: 1406571997
+      kojimaSpriteSheet_93: 1017324296
+      kojimaSpriteSheet_94: 1420138275
+      kojimaSpriteSheet_95: -181123771
+      kojimaSpriteSheet_96: -1462380298
+      kojimaSpriteSheet_97: -1382132045
+      kojimaSpriteSheet_98: -1484533767
+      kojimaSpriteSheet_99: -1847427002
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

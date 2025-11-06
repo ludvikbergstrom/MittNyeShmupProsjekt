@@ -4,6 +4,7 @@ using UnityEngine;
 public class EnemyHitDetectionScript : MonoBehaviour
 {
     private EnemyHandlingScript enemyHandler;
+    public int enemyHealth = 1;
 
     private void Start()
     {
@@ -13,6 +14,7 @@ public class EnemyHitDetectionScript : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        enemyHealth--;
         if (collision.gameObject.CompareTag("Shield"))
         {
             // Get where the projectile hit the shield in world space
@@ -29,10 +31,12 @@ public class EnemyHitDetectionScript : MonoBehaviour
         }
         else
         {
-            Destroy(gameObject);
-            ScoreManagerScript.instance.AddScore();
-            enemyHandler.StartCoroutine(enemyHandler.DelayedUpdateBottomShooters());
+            if (enemyHealth <= 0)
+            {
+                Destroy(gameObject);
+                ScoreManagerScript.instance.AddScore();
+                enemyHandler.StartCoroutine(enemyHandler.DelayedUpdateBottomShooters());
+            }
         }
     }
-
 }
