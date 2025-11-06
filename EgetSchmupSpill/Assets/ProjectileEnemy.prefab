@@ -106,6 +106,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   projSpeed: -5
+  projectileSound: {fileID: 8300000, guid: d22682b04a547f845a5f90812726ab02, type: 3}
+  volume: 0.5
 --- !u!50 &7292904280879029016
 Rigidbody2D:
   serializedVersion: 5

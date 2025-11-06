@@ -5,11 +5,14 @@ public class ProjectileScript : MonoBehaviour
 
     Rigidbody2D rb;
     public float projSpeed = 5.0f;
+    public AudioClip projectileSound;
+    public float volume = 1.0f;
     Vector2 moveValue;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        AudioSource.PlayClipAtPoint(projectileSound, transform.position, volume);
     }
 
 

@@ -5,6 +5,7 @@ public class EnemyHitDetectionScript : MonoBehaviour
 {
     private EnemyHandlingScript enemyHandler;
     public int enemyHealth = 1;
+    public AudioClip enemyDeathSound;
 
     private void Start()
     {
@@ -33,6 +34,7 @@ public class EnemyHitDetectionScript : MonoBehaviour
         {
             if (enemyHealth <= 0)
             {
+                AudioSource.PlayClipAtPoint(enemyDeathSound, transform.position, 2.0f);
                 Destroy(gameObject);
                 ScoreManagerScript.instance.AddScore();
                 enemyHandler.StartCoroutine(enemyHandler.DelayedUpdateBottomShooters());

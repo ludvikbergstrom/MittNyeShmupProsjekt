@@ -106,6 +106,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ShieldScript
   width: 128
   height: 16
+  destroyedClip: {fileID: 8300000, guid: bc12d4860efcaf242834ef9c264eff54, type: 3}
 --- !u!60 &628663869332180780
 PolygonCollider2D:
   m_ObjectHideFlags: 0

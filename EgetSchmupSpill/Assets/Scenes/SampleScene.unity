@@ -1096,6 +1096,11 @@ MonoBehaviour:
   movePause: 0.03
   lowestY: -3
   fireRate: 1
+  audioClips:
+  - {fileID: 8300000, guid: ed7e19fc6e79ea44eba402d58eb89626, type: 3}
+  - {fileID: 8300000, guid: 3d5307e8e00d8eb46af9e5cf399c8a13, type: 3}
+  - {fileID: 8300000, guid: 428f10e747312f74e8d06c07b162068f, type: 3}
+  - {fileID: 8300000, guid: 519979c6466fb024dacb7546008431a7, type: 3}
   enemyClones: []
   shieldScript: {fileID: 575948982}
 --- !u!4 &1164202265

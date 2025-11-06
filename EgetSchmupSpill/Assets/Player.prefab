@@ -193,7 +193,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 808b15c60b2e6824bbc78c31b5f8bd0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  fireRate: 10
+  fireRate: 1
   projectilePrefab: {fileID: 883067076840752244, guid: 40abccdd67932084195e2b2b90a34b93, type: 3}
 --- !u!114 &6594920786572316591
 MonoBehaviour:
@@ -207,3 +207,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8c154f75193ba846b89ebeeb92006da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  playerDeathSound: {fileID: 8300000, guid: 571f351306a269a46b358ec0f083c81c, type: 3}

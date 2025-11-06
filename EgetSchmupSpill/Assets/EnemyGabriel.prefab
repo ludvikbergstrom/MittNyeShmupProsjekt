@@ -141,7 +141,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1, y: 1.94}
   m_EdgeRadius: 0
 --- !u!50 &5459496790459629785
 Rigidbody2D:
@@ -217,6 +217,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b056dca6efb0f4478222921c635d977, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  enemyHealth: 1
+  enemyDeathSound: {fileID: 8300000, guid: a9ee0d319f938fd40972a9c16ee5ec96, type: 3}
 --- !u!114 &-8382142524872849313
 MonoBehaviour:
   m_ObjectHideFlags: 0

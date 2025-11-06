@@ -236,6 +236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c583bf4b0a2e4634c8545f4f1044a0da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainMenuManager
+  menuMusic: {fileID: 8300000, guid: 2aa770b12318f6140b7d6740d0d87651, type: 3}
 --- !u!1 &1054053079
 GameObject:
   m_ObjectHideFlags: 0
@@ -645,7 +646,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 4704224253215013556, guid: 3ad5b65c818ea524e94d8d713150bcdc, type: 3}
+  m_Sprite: {fileID: -6973345960376357409, guid: 417c17c4c594d3744a6640acb83064fa, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

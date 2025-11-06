@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using System.Runtime.CompilerServices;
 using UnityEngine;
-using System.Linq;
+using UnityEngine.SceneManagement;
 using static UnityEditor.Experimental.AssetDatabaseExperimental.AssetDatabaseCounters;
 
 public class EnemyHandlingScript : MonoBehaviour
@@ -26,11 +27,14 @@ public class EnemyHandlingScript : MonoBehaviour
     public float moveSpeed = 0.5f;  // time between steps
     public float leftEdge = -3.3f;
     public float rightEdge = 3.3f;
-    public float movePause = 0.1f;
+    public float movePause = 0.03f;
     public float lowestY = -3.0f;
 
     [Header("Shoot Settings")]
     public float fireRate = 1.0f;
+
+    [Header("music Notes")]
+    public List<AudioClip> audioClips = new List<AudioClip>();
 
     public List<GameObject> enemyClones = new List<GameObject>();
     private bool goLeft = false;
@@ -106,6 +110,11 @@ public class EnemyHandlingScript : MonoBehaviour
             shieldScript.SpawnShields();
             startSpawn = false;
         }
+        
+        if (round == 4)
+        {
+            Invoke("ShowEndScreen", 2.5f);
+        }
 
 
     }
@@ -139,6 +148,7 @@ public class EnemyHandlingScript : MonoBehaviour
         StartCoroutine(AssignShooter());
     }
 
+    private int audioListIndex = 0;
     IEnumerator MoveEnemiesSpaceInvaders()
     {
         while (enemyClones.Count > 0)
@@ -196,8 +206,18 @@ public class EnemyHandlingScript : MonoBehaviour
                 }
             }
 
-            // 3️ Wait before next movement step
-            yield return new WaitForSeconds(moveSpeed);
+            AudioSource.PlayClipAtPoint(audioClips[audioListIndex],transform.position, 2.0f);
+            if (audioListIndex == 3)
+            {
+                audioListIndex = 0;
+            }
+            else
+            {
+                audioListIndex++;
+            }
+
+                // 3️ Wait before next movement step
+                yield return new WaitForSeconds(moveSpeed);
         }
     }
     public IEnumerator DelayedUpdateBottomShooters()
@@ -276,6 +296,11 @@ public class EnemyHandlingScript : MonoBehaviour
             yield return new WaitWhile(() => !PlayerHealthManagerScript.instance.playerAlive);
             yield return new WaitForSeconds(fireRate);
         }
+    }
+
+    void ShowEndScreen()
+    {
+        SceneManager.LoadScene("EndScreen");
     }
 }
 

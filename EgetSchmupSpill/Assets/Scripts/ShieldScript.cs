@@ -8,6 +8,9 @@ public class ShieldScript : MonoBehaviour
     public int width = 64;   // Width of the shield in pixels (adjustable in Inspector)
     public int height = 32;  // Height of the shield in pixels (adjustable in Inspector)
 
+    [Header("sound")]
+    public AudioClip destroyedClip;
+
     Texture2D tex;
     SpriteRenderer sr;
     PolygonCollider2D polyCollider;
@@ -66,6 +69,7 @@ public class ShieldScript : MonoBehaviour
         tex.Apply();
         if (!HasAnyVisiblePixels(tex))
         {
+            AudioSource.PlayClipAtPoint(destroyedClip, transform.position, 1.0f);
             Destroy(gameObject);
         }
         UpdateCollider();
