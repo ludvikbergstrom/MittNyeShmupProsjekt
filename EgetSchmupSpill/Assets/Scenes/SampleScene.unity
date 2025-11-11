@@ -1094,7 +1094,7 @@ MonoBehaviour:
   leftEdge: -3.3
   rightEdge: 3.3
   movePause: 0.03
-  lowestY: -3
+  lowestY: -2.7
   fireRate: 1
   audioClips:
   - {fileID: 8300000, guid: ed7e19fc6e79ea44eba402d58eb89626, type: 3}
